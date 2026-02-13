@@ -1,0 +1,1376 @@
+{
+  "kategorien": [
+    {
+      "id": "wissenschaftliches-arbeiten",
+      "name": "Wissenschaftliches Arbeiten",
+      "fragen": [
+        {
+          "id": "wa-1",
+          "typ": "karteikarte",
+          "frage": "Nenne zwei Ziele der Literaturrecherche.",
+          "antwort": "• Inhalte werden konkretisiert\n• geeignete Quellen oder Material zu finden\n• evidenzbasiertes Wissen zu vermitteln"
+        },
+        {
+          "id": "wa-2",
+          "typ": "karteikarte",
+          "frage": "Nenne drei Orte, an denen du nach Literatur suchen kannst.",
+          "antwort": "• Internet-Suchmaschine – z.B. Google, Google Scholar\n• Datenbanken, z.B. PubMed, Medline\n• Bibliothek"
+        },
+        {
+          "id": "wa-3",
+          "typ": "karteikarte",
+          "frage": "Nenne drei Quellenarten.",
+          "antwort": "• Primärquelle\n• Sekundärquelle\n• Tertiärquelle"
+        },
+        {
+          "id": "wa-4",
+          "typ": "karteikarte",
+          "frage": "Welche zwei Arten der Recherchestrategien gibt es? Wie unterscheiden sie sich voneinander?",
+          "antwort": "• Einstiegssuche: grobe Zusammensuche/Erkundung zu einem Thema\n• Systematische Suche: „Feinschliff“, detaillierte Suche, Erschließung eines Themas"
+        },
+        {
+          "id": "wa-5",
+          "typ": "karteikarte",
+          "frage": "Was sind Suchbegriffe? Warum sind sie wichtig?",
+          "antwort": "• Schlüsselwörter für die gezielte Suche\n• durchdachte Sammlung von Begriffen\n• je präziser die Begriffe desto gezielter die Suche und Ergebnisse"
+        },
+        {
+          "id": "wa-6",
+          "typ": "karteikarte",
+          "frage": "In welcher Hinsicht unterscheiden sich qualitative und quantitative Forschungsmethoden voneinander? Stelle jeweils 4 Kriterien einander gegenüber.",
+          "antwort": "Quantitativ | Qualitativ:\n• strukturiertes und standardisiertes Vorgehen | weniger strukturiert\n• Fragebogen | Leitfaden und Interview\n• Hohe Teilnehmeranzahl | Kleiner Teilnehmerkreis\n• Deduktiv | Induktiv\n• Zahlen (objektiv) | Gefühle, Emotionen, Motivationshintergründe (subjektiv)"
+        },
+        {
+          "id": "wa-7",
+          "typ": "karteikarte",
+          "frage": "Beschreibe kurz den Unterschied zwischen dem induktiven und deduktiven Vorgehen in der Forschung.",
+          "antwort": "• Induktives Vorgehen: vom Individuum (Einzelfall) auf die Masse bezogen\n• Deduktives Vorgehen: Ableitung von logischen Schlussfolgerungen – von der großen Masse auf den Einzelnen bezogen"
+        },
+        {
+          "id": "wa-8",
+          "typ": "karteikarte",
+          "frage": "A) Wozu dient das Abstract / Zusammenfassung einer Studienpublikation? B) Welche groben Inhalte sind darin enthalten? Nenne vier.",
+          "antwort": "A) • prägnante / kurze Zusammenfassung einer Studie; als Überblick über die Studie (So muss nicht die gesamte Studie gelesen werden.)\n\nB) • Hintergrund\n• Ziel\n• Methode\n• Ergebnisse"
+        },
+        {
+          "id": "wa-9",
+          "typ": "karteikarte",
+          "frage": "Nenne drei Kriterien, die bei der Formulierung einer Forschungsfrage beachtet werden sollten.",
+          "antwort": "• Bedeutsam (relevant)\n• nachvollziehbar (sinnvoll)\n• präzise (genau/ exakt)"
+        },
+        {
+          "id": "wa-10",
+          "typ": "karteikarte",
+          "frage": "Wie sollten Studienergebnisse beschrieben werden? Nenne drei Aspekte.",
+          "antwort": "• objektive Beschreibung / ohne Wertung\n• Ergebnisse sollten in Bezug zu der Fragestellung gesetzt werden\n• vollständig\n• Zahlen auch mit Worten beschreiben\n• Übersichtlich und strukturiert"
+        },
+        {
+          "id": "wa-11",
+          "typ": "karteikarte",
+          "frage": "Was ist bei der Interpretation von Studien wichtig? Nenne zwei Aspekte.",
+          "antwort": "• je nach Studientyp gelten andere Güterkriterien zur Bewertung\n• Herangehensweise der Studie muss passend sein\n• Aktualität der Ergebnisse\n• Forschungslücke zu dem Thema vorhanden\n• allgemeine Gütekriterien, je nach Studientyp, sollten erfüllt sein, z.B. bei RCT Verblindung"
+        }
+      ]
+    },
+    {
+      "id": "anleitungsprozess",
+      "name": "Anleitungsprozess",
+      "fragen": [
+        {
+          "id": "ap-1",
+          "typ": "karteikarte",
+          "frage": "Aus welchen drei Handlungsschritten besteht die Vorbereitung einer Anleitung?",
+          "antwort": "• Richtiger Lerninhalt\n• Richtiges Lernziel\n• Richtige Lerngestaltung"
+        },
+        {
+          "id": "ap-2",
+          "typ": "karteikarte",
+          "frage": "Wie wird der richtige Lerninhalt gefunden?",
+          "antwort": "Startschuss: Was soll gelernt werden? Wahl fällt auf ein Thema aus dem betrieblichen bzw. individuellem Ausbildungsplan oder es wird auf Basis einer Anforderungs- und Adressatenanalyse gefunden. Theorie-Praxis-Transfer nach gesetzlichen Vorgaben sicherstellen."
+        },
+        {
+          "id": "ap-3",
+          "typ": "karteikarte",
+          "frage": "Welche vier W-Fragen gehören zur richtigen Lerngestaltung?",
+          "antwort": "• Wann soll es gelernt werden? (Zeitpunkt und Dauer)\n• Wo soll es gelernt werden? (Lernort: Patient*innenzimmer, Skills Lab, Büro)\n• Womit soll es gelernt werden? (Lehr-Lern-Mittel: visuell, auditiv, taktil)\n• Wie soll es gelernt werden? (Lehr-Lern-Methode gemäß Lernzielbereich)"
+        },
+        {
+          "id": "ap-4",
+          "typ": "karteikarte",
+          "frage": "Was ist die Bedingungsanalyse und welche Ziele hat sie?",
+          "antwort": "Analyse der Situation anhand verschiedener Variablen – Vorlage für gelungenen Unterricht. Ziele: Leistungsfähigkeit der Lernenden erfassen, Vorkenntnisse reflektieren, Förderbedarf erkennen, Lernprobleme vorbeugen, Unterrichtszeit kalkulieren, Unterrichtsumgebung verbessern."
+        },
+        {
+          "id": "ap-5",
+          "typ": "karteikarte",
+          "frage": "Welche drei Bereiche werden bei der Bedingungsanalyse analysiert?",
+          "antwort": "• Bedingungen der Lernenden (Anzahl, Alter, Vorkenntnisse, Motivation, etc.)\n• Bedingungen der Lehrkraft (Ausbildungsstand, Kompetenz, Lehrstil)\n• Äußere Rahmenbedingungen (Räumlichkeiten, Ausstattung, Tageszeit, Lehrmittel)"
+        },
+        {
+          "id": "ap-6",
+          "typ": "karteikarte",
+          "frage": "Welche Praxisanleitungsmethoden stehen für die Durchführung zur Verfügung?",
+          "antwort": "• Cognitive Apprenticeship\n• Modeling im Metalog\n• Vier-Stufen-Methode"
+        },
+        {
+          "id": "ap-7",
+          "typ": "karteikarte",
+          "frage": "Welche zwei Right's gehören zur Nachbereitung?",
+          "antwort": "• Richtige Erfolgskontrolle\n• Richtige Transfersicherung\n\nZudem spielt Feedback eine wichtige Rolle."
+        },
+        {
+          "id": "ap-8",
+          "typ": "karteikarte",
+          "frage": "Auf welchem Weg kann die Erfolgskontrolle erfolgen?",
+          "antwort": "• Schriftlich – Eintrag in den Ausbildungsnachweis\n• Mündlich – Befragung, Zusammenfassung des neu Gelernten\n• Praktisch – Demonstration der Pflegehandlung durch die Auszubildenden\n\nEs findet ein Soll-Ist-Vergleich mittels Selbst- und Fremdeinschätzung statt."
+        },
+        {
+          "id": "ap-9",
+          "typ": "karteikarte",
+          "frage": "Was ist die richtige Transfersicherung?",
+          "antwort": "Leitfrage: Wie kann die Anwendung des gelernten Wissens und Könnens auf ähnliche Situationen sichergestellt werden? Suche nach Anknüpfungspunkten im Berufsalltag. Neu Gelerntes soll auf ähnliche Situationen übertragen werden können."
+        },
+        {
+          "id": "ap-10",
+          "typ": "multipleChoice",
+          "frage": "Welche Methode gehört zur Durchführung einer Anleitung?",
+          "optionen": [
+            "ABC-Liste",
+            "Cognitive Apprenticeship",
+            "Fischgräte",
+            "5-Finger-Feedback"
+          ],
+          "richtigeAntwort": 1,
+          "erklaerung": "Cognitive Apprenticeship ist eine Praxisanleitungsmethode für die Durchführung. Die anderen gehören zu Aktivierung, Vertiefung bzw. Reflexion."
+        }
+      ]
+    },
+    {
+      "id": "kommunikation",
+      "name": "Kommunikation",
+      "fragen": [
+        {
+          "id": "kom-1",
+          "typ": "multipleChoice",
+          "frage": "Ein Patient sagt: \"Sie kümmern sich heute gar nicht um mich.\" Was könnte auf der Sach-Ebene gemeint sein?",
+          "optionen": [
+            "Der Patient möchte mehr Aufmerksamkeit.",
+            "Der Patient fühlt sich vernachlässigt.",
+            "Der Patient stellt fest, dass er heute weniger Pflege erhalten hat.",
+            "Der Patient ist unzufrieden mit der Pflege."
+          ],
+          "richtigeAntwort": 2,
+          "erklaerung": "Auf der Sach-Ebene geht es um die Fakten. Hier stellt der Patient fest, dass er heute weniger Pflege erhalten hat."
+        },
+        {
+          "id": "kom-2",
+          "typ": "multipleChoice",
+          "frage": "Ein Kollege sagt: \"Du hast die Medikamente noch nicht vorbereitet.\" Was könnte auf der Appell-Ebene gemeint sein?",
+          "optionen": [
+            "Der Kollege möchte, dass du die Medikamente vorbereitest.",
+            "Der Kollege kritisiert deine Arbeitsweise.",
+            "Der Kollege teilt dir eine Information mit.",
+            "Der Kollege möchte dich unterstützen."
+          ],
+          "richtigeAntwort": 0,
+          "erklaerung": "Auf der Appell-Ebene fordert der Kollege dich auf, die Medikamente vorzubereiten."
+        },
+        {
+          "id": "kom-3",
+          "typ": "multipleChoice",
+          "frage": "Ein Patient sagt: \"Mir ist kalt.\" Was könnte auf der Selbstoffenbarungs-Ebene gemeint sein?",
+          "optionen": [
+            "Der Patient möchte, dass du die Heizung anstellst.",
+            "Der Patient teilt mit, dass er friert.",
+            "Der Patient kritisiert die Raumtemperatur.",
+            "Der Patient möchte eine Decke."
+          ],
+          "richtigeAntwort": 1,
+          "erklaerung": "Auf der Selbstoffenbarungs-Ebene teilt der Patient mit, dass er friert."
+        },
+        {
+          "id": "kom-4",
+          "typ": "multipleChoice",
+          "frage": "Ein Angehöriger sagt: \"Warum dauert das so lange mit den Medikamenten?\" Was könnte auf der Beziehungs-Ebene gemeint sein?",
+          "optionen": [
+            "Der Angehörige ist besorgt um den Patienten.",
+            "Der Angehörige kritisiert die Organisation.",
+            "Der Angehörige möchte Informationen über die Medikamente.",
+            "Der Angehörige ist unzufrieden mit dir."
+          ],
+          "richtigeAntwort": 1,
+          "erklaerung": "Auf der Beziehungs-Ebene könnte der Angehörige die Organisation oder deine Arbeitsweise kritisieren."
+        },
+        {
+          "id": "kom-5",
+          "typ": "multipleChoice",
+          "frage": "Ein Kollege sagt: \"Du bist immer so langsam bei der Dokumentation.\" Was könnte auf der Sach-Ebene gemeint sein?",
+          "optionen": [
+            "Der Kollege möchte, dass du schneller arbeitest.",
+            "Der Kollege stellt fest, dass du langsam dokumentierst.",
+            "Der Kollege kritisiert deine Arbeitsweise.",
+            "Der Kollege möchte dir helfen."
+          ],
+          "richtigeAntwort": 1,
+          "erklaerung": "Auf der Sach-Ebene stellt der Kollege fest, dass du langsam dokumentierst."
+        },
+        {
+          "id": "kom-6",
+          "typ": "multipleChoice",
+          "frage": "Ein Patient sagt: \"Ich will nicht von Ihnen gewaschen werden.\" Was könnte auf der Appell-Ebene gemeint sein?",
+          "optionen": [
+            "Der Patient möchte von jemand anderem gewaschen werden.",
+            "Der Patient fühlt sich unwohl.",
+            "Der Patient kritisiert deine Pflege.",
+            "Der Patient möchte nicht gewaschen werden."
+          ],
+          "richtigeAntwort": 0,
+          "erklaerung": "Auf der Appell-Ebene fordert der Patient, dass jemand anderes ihn wäscht."
+        },
+        {
+          "id": "kom-7",
+          "typ": "multipleChoice",
+          "frage": "Ein Kollege sagt: \"Du hast heute viel Verantwortung übernommen.\" Was könnte auf der Selbstoffenbarungs-Ebene gemeint sein?",
+          "optionen": [
+            "Der Kollege möchte dich loben.",
+            "Der Kollege teilt mit, dass er beeindruckt ist.",
+            "Der Kollege kritisiert deine Arbeitsweise.",
+            "Der Kollege möchte dich motivieren."
+          ],
+          "richtigeAntwort": 1,
+          "erklaerung": "Auf der Selbstoffenbarungs-Ebene teilt der Kollege mit, dass er beeindruckt ist."
+        },
+        {
+          "id": "kom-8",
+          "typ": "multipleChoice",
+          "frage": "Ein Patient sagt: \"Sie sind immer so freundlich.\" Was könnte auf der Beziehungs-Ebene gemeint sein?",
+          "optionen": [
+            "Der Patient schätzt deine Freundlichkeit.",
+            "Der Patient möchte dich loben.",
+            "Der Patient kritisiert andere Pflegekräfte.",
+            "Der Patient möchte dich motivieren."
+          ],
+          "richtigeAntwort": 1,
+          "erklaerung": "Auf der Beziehungs-Ebene will er dich loben."
+        },
+        {
+          "id": "kom-9",
+          "typ": "multipleChoice",
+          "frage": "Ein Angehöriger sagt: \"Die Pflege dauert heute länger als sonst.\" Was könnte auf der Sach-Ebene gemeint sein?",
+          "optionen": [
+            "Der Angehörige möchte, dass die Pflege schneller geht.",
+            "Der Angehörige stellt fest, dass die Pflege länger dauert.",
+            "Der Angehörige kritisiert die Pflegekräfte.",
+            "Der Angehörige möchte Informationen über die Pflege."
+          ],
+          "richtigeAntwort": 1,
+          "erklaerung": "Auf der Sach-Ebene stellt der Angehörige fest, dass die Pflege länger dauert."
+        },
+        {
+          "id": "kom-10",
+          "typ": "multipleChoice",
+          "frage": "Ein Kollege sagt: \"Die Übergabe war heute chaotisch.\" Was könnte auf der Selbstoffenbarungs-Ebene gemeint sein?",
+          "optionen": [
+            "Der Kollege möchte die Übergabe mit dem Team verbessern.",
+            "Der Kollege teilt mit, dass er sich gestresst fühlt.",
+            "Der Kollege erkennt die Strukturlosigkeit der Übergabe.",
+            "Der Kollege möchte dich informieren."
+          ],
+          "richtigeAntwort": 1,
+          "erklaerung": "Auf der Selbstoffenbarungs-Ebene teilt der Kollege mit, dass er sich gestresst fühlt."
+        },
+        {
+          "id": "kom-11",
+          "typ": "multipleChoice",
+          "frage": "Welches Axiom von Watzlawick besagt: Man kann nicht nicht kommunizieren?",
+          "optionen": [
+            "Axiom 1: Unmöglichkeit, nicht zu kommunizieren",
+            "Axiom 2: Inhalt und Beziehung",
+            "Axiom 3: Interpunktion",
+            "Axiom 4: Digital und analog"
+          ],
+          "richtigeAntwort": 0,
+          "erklaerung": "Axiom 1: Jedes Verhalten ist Kommunikation. Schweigen, Mimik, Körperhaltung – alles hat Mitteilungscharakter."
+        },
+        {
+          "id": "kom-12",
+          "typ": "multipleChoice",
+          "frage": "Was besagt Watzlawicks Axiom zu Inhalt und Beziehung?",
+          "optionen": [
+            "Kommunikation hat immer einen Inhalt und eine Beziehungsaspekt.",
+            "Nur der Inhalt zählt, die Beziehung ist unwichtig.",
+            "Beziehung bestimmt den Inhalt vollständig.",
+            "Inhalt und Beziehung sind getrennt zu betrachten."
+          ],
+          "richtigeAntwort": 0,
+          "erklaerung": "Axiom 2: Jede Kommunikation hat einen Inhalts- und einen Beziehungsaspekt. Der Beziehungsaspekt bestimmt den Inhalt."
+        },
+        {
+          "id": "kom-13",
+          "typ": "multipleChoice",
+          "frage": "Welche drei Grundhaltungen nach Carl Rogers sind für gelingende Kommunikation zentral?",
+          "optionen": [
+            "Empathie, Akzeptanz, Kongruenz",
+            "Fragen, Zuhören, Feedback",
+            "Klarheit, Struktur, Zielorientierung",
+            "Autorität, Durchsetzung, Kontrolle"
+          ],
+          "richtigeAntwort": 0,
+          "erklaerung": "Rogers nennt Empathie (einfühlsames Verstehen), bedingungslose positive Wertschätzung/Akzeptanz und Kongruenz (Echtheit) als Grundhaltungen."
+        },
+        {
+          "id": "kom-14",
+          "typ": "multipleChoice",
+          "frage": "Was bedeutet Kongruenz in der personenzentrierten Gesprächsführung nach Rogers?",
+          "optionen": [
+            "Die Gesprächspartner stimmen in ihren Meinungen überein.",
+            "Die Lehrkraft ist echt und stimmig – innere Haltung und äußeres Verhalten passen zusammen.",
+            "Die Lernziele sind klar formuliert.",
+            "Die Kommunikation folgt einer festen Struktur."
+          ],
+          "richtigeAntwort": 1,
+          "erklaerung": "Kongruenz bedeutet Echtheit und Stimmigkeit: Die Person ist sich selbst treu, innere Haltung und äußeres Verhalten sind übereinstimmend."
+        },
+        {
+          "id": "kom-15",
+          "typ": "multipleChoice",
+          "frage": "Welche vier Schritte umfasst die Gewaltfreie Kommunikation (GFK) nach Rosenberg?",
+          "optionen": [
+            "Beobachten, Gefühle, Bedürfnisse, Bitte",
+            "Fragen, Zuhören, Antworten, Feedback",
+            "Analysieren, Planen, Durchführen, Kontrollieren",
+            "Wahrnehmen, Interpretieren, Bewerten, Handeln"
+          ],
+          "richtigeAntwort": 0,
+          "erklaerung": "GFK: 1. Beobachten (ohne Bewertung), 2. Gefühle benennen, 3. Bedürfnisse erkennen, 4. Bitte formulieren."
+        },
+        {
+          "id": "kom-16",
+          "typ": "multipleChoice",
+          "frage": "Was ist der erste Schritt der Gewaltfreien Kommunikation?",
+          "optionen": [
+            "Gefühle benennen",
+            "Beobachten ohne Bewertung",
+            "Bedürfnisse ausdrücken",
+            "Bitte formulieren"
+          ],
+          "richtigeAntwort": 1,
+          "erklaerung": "Der erste Schritt ist die Beobachtung: Was sehe/höre ich konkret – ohne Bewertung oder Interpretation?"
+        },
+        {
+          "id": "kom-17",
+          "typ": "multipleChoice",
+          "frage": "Welche Gesprächstechnik zielt darauf ab, die innere Not des Gegenübers zu verstehen?",
+          "optionen": [
+            "Position beziehen",
+            "Innere Not ansprechen",
+            "Meinungen verbinden",
+            "Problem angehen"
+          ],
+          "richtigeAntwort": 1,
+          "erklaerung": "Innere Not ansprechen: Die Gefühle und Bedürfnisse des Gegenübers wahrnehmen und ansprechen."
+        },
+        {
+          "id": "kom-18",
+          "typ": "multipleChoice",
+          "frage": "Welche Gesprächstechnik hilft, unterschiedliche Standpunkte zu vereinbaren?",
+          "optionen": [
+            "Aufmerksam machen",
+            "Meinungen verbinden",
+            "Innere Not ansprechen",
+            "Position beziehen"
+          ],
+          "richtigeAntwort": 1,
+          "erklaerung": "Meinungen verbinden: Verschiedene Standpunkte zusammenführen und gemeinsame Lösungen finden."
+        },
+        {
+          "id": "kom-19",
+          "typ": "multipleChoice",
+          "frage": "Was bedeutet die Gesprächstechnik „Position beziehen“?",
+          "optionen": [
+            "Sich zurückhalten und neutral bleiben.",
+            "Die eigene Haltung klar und respektvoll vertreten.",
+            "Dem Gegenüber zustimmen.",
+            "Das Thema wechseln."
+          ],
+          "richtigeAntwort": 1,
+          "erklaerung": "Position beziehen: Die eigene Haltung, Meinung oder Grenze klar und respektvoll kommunizieren."
+        },
+        {
+          "id": "kom-20",
+          "typ": "multipleChoice",
+          "frage": "Welche Gesprächstechnik zielt darauf ab, ein konkretes Problem zu lösen?",
+          "optionen": [
+            "Innere Not ansprechen",
+            "Meinungen verbinden",
+            "Problem angehen",
+            "Aufmerksam machen"
+          ],
+          "richtigeAntwort": 2,
+          "erklaerung": "Problem angehen: Das konkrete Thema oder die Herausforderung direkt adressieren und bearbeiten."
+        },
+        {
+          "id": "kom-21",
+          "typ": "multipleChoice",
+          "frage": "Wofür steht die Gesprächstechnik „Aufmerksam machen“?",
+          "optionen": [
+            "Den anderen unterbrechen.",
+            "Wichtige Punkte hervorheben und die Aufmerksamkeit darauf lenken.",
+            "Kritik üben.",
+            "Schweigen und abwarten."
+          ],
+          "richtigeAntwort": 1,
+          "erklaerung": "Aufmerksam machen: Relevante Aspekte hervorheben und die Aufmerksamkeit des Gegenübers darauf lenken."
+        }
+      ]
+    },
+    {
+      "id": "lernziele",
+      "name": "Lernziele (Modul 3)",
+      "fragen": [
+        {
+          "id": "lz-1",
+          "typ": "karteikarte",
+          "frage": "Welche Leitfrage steht beim Formulieren eines Lernziels im Zentrum?",
+          "antwort": "Welches Wissen und Können soll am Ende gezeigt werden?"
+        },
+        {
+          "id": "lz-2",
+          "typ": "karteikarte",
+          "frage": "Wie soll ein Lernziel beschrieben sein? Nenne drei Anforderungen.",
+          "antwort": "• Präzise\n• eindeutig\n• unmissverständlich\n\nJe geringer der Interpretationsspielraum ist, desto leichter fällt später auch die Erfolgskontrolle."
+        },
+        {
+          "id": "lz-3",
+          "typ": "karteikarte",
+          "frage": "Welche drei Lernzielbereiche bzw. Lernzieltaxonomien gibt es?",
+          "antwort": "• Kognitive Lernzieltaxonomie (Bloom)\n• Affektive Lernzieltaxonomie\n• Psychomotorische Lernzieltaxonomie (Dave)"
+        },
+        {
+          "id": "lz-4",
+          "typ": "karteikarte",
+          "frage": "Womit befasst sich die kognitive Lernzieltaxonomie nach Bloom?",
+          "antwort": "Erwerb von Wissen und Kenntnissen. Sie gliedert sich in sechs aufeinander aufbauende Lernstufen."
+        },
+        {
+          "id": "lz-5",
+          "typ": "multipleChoice",
+          "frage": "Welche Stufe der kognitiven Taxonomie nach Bloom beschreibt: „Fakten, Inhalte lernen, erinnern und wiedergeben“?",
+          "optionen": [
+            "Verstehen",
+            "Wissen",
+            "Anwenden",
+            "Analysieren"
+          ],
+          "richtigeAntwort": 1,
+          "erklaerung": "Wissen: Auflisten, benennen – Fakten und Inhalte lernen, erinnern und wiedergeben."
+        },
+        {
+          "id": "lz-6",
+          "typ": "multipleChoice",
+          "frage": "„Erklären, zusammenfassen“ und „Eine Sache begreifen und Zusammenhänge verstehen“ – welche Stufe der Bloom-Taxonomie?",
+          "optionen": [
+            "Wissen",
+            "Verstehen",
+            "Anwenden",
+            "Synthetisieren"
+          ],
+          "richtigeAntwort": 1,
+          "erklaerung": "Verstehen: Erklären, zusammenfassen – Eine Sache begreifen und Zusammenhänge verstehen."
+        },
+        {
+          "id": "lz-7",
+          "typ": "multipleChoice",
+          "frage": "„Durchführen, berechnen“ und „Das erworbene Wissen in neuen, veränderten Situationen anwenden“ – welche Stufe?",
+          "optionen": [
+            "Verstehen",
+            "Anwenden",
+            "Analysieren",
+            "Evaluieren"
+          ],
+          "richtigeAntwort": 1,
+          "erklaerung": "Anwenden: Durchführen, berechnen – Das erworbene Wissen in neuen Situationen anwenden."
+        },
+        {
+          "id": "lz-8",
+          "typ": "multipleChoice",
+          "frage": "„Vergleichen, unterscheiden“ und „Inhalte in Teile zerlegen und deren Beziehungen untersuchen“ – welche Stufe?",
+          "optionen": [
+            "Anwenden",
+            "Analysieren",
+            "Synthetisieren",
+            "Evaluieren"
+          ],
+          "richtigeAntwort": 1,
+          "erklaerung": "Analysieren: Vergleichen, unterscheiden – Inhalte in Teile zerlegen und Beziehungen untersuchen."
+        },
+        {
+          "id": "lz-9",
+          "typ": "multipleChoice",
+          "frage": "„Entwickeln, koordinieren“ und „Ideen kombinieren, neues Wissen entwickeln und kreativ gestalten“ – welche Stufe?",
+          "optionen": [
+            "Analysieren",
+            "Synthetisieren",
+            "Evaluieren",
+            "Anwenden"
+          ],
+          "richtigeAntwort": 1,
+          "erklaerung": "Synthetisieren: Entwickeln, koordinieren – Ideen kombinieren, neues Wissen entwickeln."
+        },
+        {
+          "id": "lz-10",
+          "typ": "multipleChoice",
+          "frage": "„Beurteilen, (über-)prüfen“ und „Situationen, Sachverhalte, eigene Leistungen reflektieren, beurteilen, kritisch prüfen“ – welche Stufe?",
+          "optionen": [
+            "Synthetisieren",
+            "Evaluieren",
+            "Analysieren",
+            "Anwenden"
+          ],
+          "richtigeAntwort": 1,
+          "erklaerung": "Evaluieren: Beurteilen, prüfen – kritische Bewertung von Informationen oder Vorgehensweisen."
+        },
+        {
+          "id": "lz-11",
+          "typ": "karteikarte",
+          "frage": "Womit befasst sich die affektive Lernzieltaxonomie?",
+          "antwort": "Nicht der Grad der Komplexität, sondern die Verinnerlichung von Einstellungen, Haltungen, Interessen oder Werten. Es handelt sich um ein längerfristiges Programm, dessen Erfolg erst in konkreter Berufsausübung abzulesen ist."
+        },
+        {
+          "id": "lz-12",
+          "typ": "karteikarte",
+          "frage": "Nenne die fünf Stufen der affektiven Lernzieltaxonomie.",
+          "antwort": "• Aufmerksam werden / Beachten\n• Reagieren\n• Werten\n• Organisation / Ordnen von Werten\n• Charakterisierung durch einen Wert oder eine Wertstruktur"
+        },
+        {
+          "id": "lz-13",
+          "typ": "karteikarte",
+          "frage": "Womit befasst sich die psychomotorische Lernzieltaxonomie?",
+          "antwort": "Erwerb eines Könnens / Tuns und Handelns. Ziel: Lernen einer willentlichen Ausführung von Bewegungsabläufen. Dave hat die Taxonomie nach dem Grad der Koordination erstellt – sie beschreibt den Erwerb praktischer Fähigkeiten und Fertigkeiten."
+        },
+        {
+          "id": "lz-14",
+          "typ": "karteikarte",
+          "frage": "Nenne die fünf Stufen der psychomotorischen Lernzieltaxonomie (Dave).",
+          "antwort": "• Imitation\n• Manipulation\n• Präzision\n• Handlungsgliederung\n• Naturalisierung"
+        },
+        {
+          "id": "lz-15",
+          "typ": "karteikarte",
+          "frage": "Beschreibe die Stufe „Imitation“ der psychomotorischen Taxonomie.",
+          "antwort": "Zuvor demonstriertes Handeln wird nachgeahmt. Meist nicht fehlerfrei."
+        },
+        {
+          "id": "lz-16",
+          "typ": "karteikarte",
+          "frage": "Beschreibe die Stufe „Manipulation“ der psychomotorischen Taxonomie.",
+          "antwort": "Gewisses Maß an Handlungssicherheit mittels Übung erreicht. Unterstützt durch verbale, visuelle oder taktile Hinweise von Anleitenden."
+        },
+        {
+          "id": "lz-17",
+          "typ": "karteikarte",
+          "frage": "Beschreibe die Stufe „Präzision“ der psychomotorischen Taxonomie.",
+          "antwort": "Selbstständigkeit und Genauigkeit der zuvor initiierten Fertigkeit. Lernende braucht keine Hilfe von außen mehr."
+        },
+        {
+          "id": "lz-18",
+          "typ": "karteikarte",
+          "frage": "Beschreibe die Stufe „Handlungsgliederung“ der psychomotorischen Taxonomie.",
+          "antwort": "Lernende variiert sicher und selbstständig situations- und patient*innenbezogen – ohne Verlust an technischer Korrektheit."
+        },
+        {
+          "id": "lz-19",
+          "typ": "karteikarte",
+          "frage": "Beschreibe die Stufe „Naturalisierung“ der psychomotorischen Taxonomie.",
+          "antwort": "Lernende kann Erlerntes in verschiedensten Situationen anwenden und handelt flexibel, sicher und relativ mühelos."
+        },
+        {
+          "id": "lz-20",
+          "typ": "multipleChoice",
+          "frage": "Die kognitive Lernzieltaxonomie nach Bloom fördert systematisch den Erwerb von …",
+          "optionen": [
+            "Einstellungen und Werten",
+            "Wissen und Kenntnissen",
+            "motorischen Fähigkeiten",
+            "sozialen Kompetenzen"
+          ],
+          "richtigeAntwort": 1,
+          "erklaerung": "Die kognitive Taxonomie gliedert sich in Stufen, die den Erwerb von Wissen und Kenntnissen fördern."
+        },
+        {
+          "id": "lz-21",
+          "typ": "multipleChoice",
+          "frage": "Die psychomotorische Domäne beschreibt die Entwicklung von … durch Übung und Koordination.",
+          "optionen": [
+            "Wissen und Kenntnissen",
+            "Einstellungen und Werten",
+            "motorischen Fähigkeiten und Fertigkeiten",
+            "kognitiven Strategien"
+          ],
+          "richtigeAntwort": 2,
+          "erklaerung": "Die psychomotorische Taxonomie umfasst Stufen vom Nachahmen bis zur meisterhaften Beherrschung einer Bewegung."
+        }
+      ]
+    },
+    {
+      "id": "handlungskompetenzen",
+      "name": "Handlungskompetenzen",
+      "fragen": [
+        {
+          "id": "hk-1",
+          "typ": "karteikarte",
+          "frage": "Wie wird Kompetenz allgemein definiert?",
+          "antwort": "Die Verbindung von Wissen und Können in der Bewältigung von Handlungsanforderungen."
+        },
+        {
+          "id": "hk-2",
+          "typ": "karteikarte",
+          "frage": "Wann gelten Personen als kompetent?",
+          "antwort": "Wenn sie auf der Grundlage von Wissen, Fähigkeiten und Fertigkeiten aktuell gefordertes Handeln neu generieren können. Insbesondere die Bewältigung von Anforderungen und Situationen, die nicht routinemäßiges Handeln und Problemlösen erfordern."
+        },
+        {
+          "id": "hk-3",
+          "typ": "karteikarte",
+          "frage": "Nenne die vier Kompetenzbereiche, die gemeinsam die Handlungskompetenz bilden.",
+          "antwort": "• Fachkompetenz\n• Methodenkompetenz\n• Sozialkompetenz\n• Personalkompetenz"
+        },
+        {
+          "id": "hk-4",
+          "typ": "karteikarte",
+          "frage": "Was beschreibt die Personalkompetenz?",
+          "antwort": "• Du verstehst dich selbst genau, hinterfragst kritisch und steuerst dein Verhalten\n• Du kennst deine eigenen Werte und Einstellungen und handelst nach ihnen\n• Beispiele: Leistungsbereitschaft, Flexibilität, Selbstreflexion, Verantwortungsbewusstsein, Selbstwahrnehmung"
+        },
+        {
+          "id": "hk-5",
+          "typ": "karteikarte",
+          "frage": "In welche vier Bereiche lässt sich die Sozialkompetenz unterteilen?",
+          "antwort": "• Umgang mit dir selbst (z.B. Selbstbewusstsein, Selbstreflexion, Selbstvertrauen)\n• Umgang mit anderen (z.B. Menschenkenntnis, Empathie, Toleranz, Hilfsbereitschaft)\n• Zusammenarbeit (z.B. Teamfähigkeit, Konfliktfähigkeit, Motivationsfähigkeit)\n• Menschenführung (z.B. Verantwortung, Vorbildfunktion, Fairness)"
+        },
+        {
+          "id": "hk-6",
+          "typ": "karteikarte",
+          "frage": "Was beschreibt die Methodenkompetenz?",
+          "antwort": "Fähigkeit, sich Informationen zu beschaffen, sie zu strukturieren, auszuwerten, in Zusammenhänge einzuordnen und die Ergebnisse richtig zu interpretieren und zu präsentieren. Beinhaltet auch Problemlösungs- und Organisationstechniken. Beispiele: Selbstmanagement, Zeitmanagement, Medienkompetenz, Organisationsfähigkeit."
+        },
+        {
+          "id": "hk-7",
+          "typ": "karteikarte",
+          "frage": "Was beschreibt die Fachkompetenz?",
+          "antwort": "Fähigkeit, fachbezogenes und fachübergreifendes Wissen anzuwenden, zu verknüpfen und kritisch zu prüfen. Beschreibt alle Kenntnisse und Fähigkeiten, die notwendig sind, um Aufgaben in einem spezifischen Fach- oder Wissensgebiet erfolgreich zu bewältigen."
+        },
+        {
+          "id": "hk-8",
+          "typ": "karteikarte",
+          "frage": "Wie unterscheiden sich Fachkompetenz und Methodenkompetenz?",
+          "antwort": "Fachkompetenz: Fähigkeit, das eigene Wissen anzuwenden und Aufgaben erfolgreich zu lösen.\n\nMethodenkompetenz: Fähigkeit, bestimmte Lern- und Arbeitsmethoden anzuwenden, um die Fachkompetenz zu erlangen oder weiterzuentwickeln.\n\nMerke: Fachkompetenz = fachliches Wissen; Methodenkompetenz = Fähigkeit, diese fachlichen Stärken zu erlernen."
+        },
+        {
+          "id": "hk-9",
+          "typ": "karteikarte",
+          "frage": "Was beschreibt die Handlungskompetenz?",
+          "antwort": "Die Fähigkeit eines Menschen, Problemstellungen fach- und sachgerecht, reflektiert und für den Einzelfall situationsangemessen bearbeiten zu können. Wird verstanden als: subjekt- und situationsbezogen, ganzheitliches Handlungspotenzial, selbst organisiertes Handeln, Bewältigung komplexer Handlungssituationen, nur in Handlung sichtbar."
+        },
+        {
+          "id": "hk-10",
+          "typ": "karteikarte",
+          "frage": "Wie unterscheiden sich Kompetenz und Performanz?",
+          "antwort": "Kompetenz: Fähigkeit, bestimmte Handlung ausüben zu können.\n\nPerformanz: Das beobachtbare Verhalten, in dem die Kompetenz sichtbar wird.\n\nKompetenz zeigt sich also in Performanz!"
+        },
+        {
+          "id": "hk-11",
+          "typ": "multipleChoice",
+          "frage": "Ich kenne mich bestens in meinem Fachgebiet aus. Meine beruflichen Entscheidungen basieren auf fundiertem Wissen und jahrelanger Erfahrung. Ohne mich gäbe es keine Expertise, um Probleme zu lösen. Welche Kompetenz bin ich?",
+          "optionen": [
+            "Methodenkompetenz",
+            "Sozialkompetenz",
+            "Fachkompetenz",
+            "Personalkompetenz"
+          ],
+          "richtigeAntwort": 2,
+          "erklaerung": "Fachkompetenz: Fähigkeit, fachliches Wissen anzuwenden und Aufgaben erfolgreich zu lösen."
+        },
+        {
+          "id": "hk-12",
+          "typ": "multipleChoice",
+          "frage": "Ich weiß, wie man strukturiert an Aufgaben herangeht und Probleme systematisch löst. Planung und Organisation sind meine Stärken. Welche Kompetenz bin ich?",
+          "optionen": [
+            "Fachkompetenz",
+            "Methodenkompetenz",
+            "Sozialkompetenz",
+            "Personalkompetenz"
+          ],
+          "richtigeAntwort": 1,
+          "erklaerung": "Methodenkompetenz: Fähigkeit, Lern- und Arbeitsmethoden anzuwenden, um effizient zu arbeiten."
+        },
+        {
+          "id": "hk-13",
+          "typ": "multipleChoice",
+          "frage": "Ich arbeite gerne mit anderen zusammen, verstehe die Bedürfnisse meines Teams und kommuniziere klar und einfühlsam. Konflikte gehe ich mit Empathie an. Welche Kompetenz bin ich?",
+          "optionen": [
+            "Fachkompetenz",
+            "Methodenkompetenz",
+            "Sozialkompetenz",
+            "Personalkompetenz"
+          ],
+          "richtigeAntwort": 2,
+          "erklaerung": "Sozialkompetenz: Fähigkeit, effektiv mit anderen zu kommunizieren und in Gruppen zu arbeiten."
+        },
+        {
+          "id": "hk-14",
+          "typ": "multipleChoice",
+          "frage": "Ich reflektiere regelmäßig über mein eigenes Verhalten und kann meine Emotionen gut steuern. Ich übernehme Verantwortung für meine Handlungen und bin in der Lage, mich selbst zu motivieren. Welche Kompetenz bin ich?",
+          "optionen": [
+            "Fachkompetenz",
+            "Methodenkompetenz",
+            "Sozialkompetenz",
+            "Personalkompetenz"
+          ],
+          "richtigeAntwort": 3,
+          "erklaerung": "Personalkompetenz: Fähigkeit, sich selbst wahrzunehmen und die eigenen Emotionen und Verhaltensweisen zu steuern."
+        },
+        {
+          "id": "hk-15",
+          "typ": "multipleChoice",
+          "frage": "Die _________-Kompetenz umfasst die Fähigkeit, effektiv mit anderen zu kommunizieren und in Gruppen zu arbeiten. Dazu gehören Teamarbeit, Empathie und Konfliktlösung.",
+          "optionen": [
+            "Fachkompetenz",
+            "Methodenkompetenz",
+            "Sozialkompetenz",
+            "Personalkompetenz"
+          ],
+          "richtigeAntwort": 2,
+          "erklaerung": "Sozialkompetenz: Fähigkeiten bei der Interaktion mit anderen Menschen."
+        },
+        {
+          "id": "hk-16",
+          "typ": "multipleChoice",
+          "frage": "Die _________-Kompetenz beschreibt die Fähigkeit, sich selbst wahrzunehmen und die eigenen Emotionen und Verhaltensweisen zu steuern.",
+          "optionen": [
+            "Fachkompetenz",
+            "Methodenkompetenz",
+            "Sozialkompetenz",
+            "Personalkompetenz"
+          ],
+          "richtigeAntwort": 3,
+          "erklaerung": "Personalkompetenz: Selbstwahrnehmung, Verantwortung für das eigene Handeln, aus Fehlern lernen."
+        },
+        {
+          "id": "hk-17",
+          "typ": "multipleChoice",
+          "frage": "Die _________-Kompetenz bezieht sich auf die Fähigkeit, verschiedene Techniken anzuwenden, um Probleme zu lösen und Aufgaben effizient zu erledigen.",
+          "optionen": [
+            "Fachkompetenz",
+            "Methodenkompetenz",
+            "Sozialkompetenz",
+            "Personalkompetenz"
+          ],
+          "richtigeAntwort": 1,
+          "erklaerung": "Methodenkompetenz: Planung, Organisation, systematische Entscheidungen."
+        },
+        {
+          "id": "hk-18",
+          "typ": "multipleChoice",
+          "frage": "Die _________-Kompetenz umfasst das spezifische Wissen und die Kenntnisse, die für eine bestimmte Tätigkeit oder Branche erforderlich sind.",
+          "optionen": [
+            "Fachkompetenz",
+            "Methodenkompetenz",
+            "Sozialkompetenz",
+            "Personalkompetenz"
+          ],
+          "richtigeAntwort": 0,
+          "erklaerung": "Fachkompetenz: theoretisches Wissen und praktische Fähigkeiten für ein Fach."
+        }
+      ]
+    },
+    {
+      "id": "interkulturalitaet",
+      "name": "Interkulturalität & Kultur",
+      "fragen": [
+        {
+          "id": "ik-1",
+          "typ": "karteikarte",
+          "frage": "Wie wird Kultur definiert?",
+          "antwort": "Kultur umfasst geistige, künstlerische, soziale und materielle Errungenschaften einer Gemeinschaft. Sie ist mehr als nur Sitte und Brauch – sie spiegelt das kollektive Gedächtnis und die Identität wider."
+        },
+        {
+          "id": "ik-2",
+          "typ": "karteikarte",
+          "frage": "Was bedeutet die Wortherkunft von Kultur? Das lateinische „colere“ bedeutet …",
+          "antwort": "„pflegen“, „bebauen“ oder „hegen“ – und unterstreicht die Idee der fortwährenden Entwicklung."
+        },
+        {
+          "id": "ik-3",
+          "typ": "karteikarte",
+          "frage": "Nenne drei Dimensionen bzw. Ebenen der Kultur.",
+          "antwort": "• Lebensstil und Soziale Praktiken (z.B. familiäre Rituale, Essgewohnheiten, kommunale Bräuche)\n• Werte und Normen (z.B. Ehre, Gastfreundschaft, Pünktlichkeit, Respekt vor Älteren)\n• Künstlerische und geistige Leistungen (Kunst, Musik, Literatur, Wissenschaft)"
+        },
+        {
+          "id": "ik-4",
+          "typ": "karteikarte",
+          "frage": "Was ist die „kulturelle Brille“?",
+          "antwort": "Metapher für die Art und Weise, wie unsere kulturellen Prägungen unsere Wahrnehmung beeinflussen. Sie wirkt oft unbewusst, führt dazu, dass wir Menschen und Situationen durch den Filter unserer eigenen kulturellen Erfahrungen bewerten, und nimmt Einfluss auf unsere Entscheidungen."
+        },
+        {
+          "id": "ik-5",
+          "typ": "karteikarte",
+          "frage": "Welche Aspekte von Kultur sind sichtbar, welche unsichtbar?",
+          "antwort": "Sichtbare Aspekte: Kleidung, Verhalten, Sprache\n\nUnsichtbare Aspekte: Werte, Glaubenssätze, Einstellungen"
+        },
+        {
+          "id": "ik-6",
+          "typ": "karteikarte",
+          "frage": "Was sind Vorurteile?",
+          "antwort": "Vorgefasste Meinungen oder Überzeugungen über Personen, Gruppen oder Dinge, die oft ohne ausreichende Informationen oder persönliche Erfahrungen entstehen. Sie haben sowohl Vor- als auch Nachteile, je nachdem, wie sie sich auf das Denken und Handeln auswirken."
+        },
+        {
+          "id": "ik-7",
+          "typ": "karteikarte",
+          "frage": "Nenne drei Vorteile von Vorurteilen.",
+          "antwort": "• Schnelle Entscheidungsfindung: rasche Urteile in bestimmten Situationen\n• Soziale Orientierung: helfen, sich in der Gesellschaft zu orientieren, bieten Struktur und Ordnung\n• Schutzmechanismus: können als Schutz dienen, indem sie vor potenziellen Gefahren warnen"
+        },
+        {
+          "id": "ik-8",
+          "typ": "karteikarte",
+          "frage": "Nenne drei Nachteile von Vorurteilen.",
+          "antwort": "• Ungerechtigkeit und Diskriminierung: führen zu ungerechtfertigten Benachteiligungen\n• Eingeschränktes Denken: können die objektive Wahrnehmung und das Lernen neuer Informationen behindern\n• Konflikte und soziale Spannungen: fördern Missverständnisse und Feindseligkeiten zwischen Gruppen"
+        },
+        {
+          "id": "ik-9",
+          "typ": "karteikarte",
+          "frage": "Was ist der „Sinn“ von Vorurteilen in einer modernen Gesellschaft?",
+          "antwort": "Während Vorurteile ursprünglich der schnellen Informationsverarbeitung und Orientierung dienten, sind sie in einer modernen und vielfältigen Gesellschaft oft hinderlich. Ihr eigentlicher „Sinn“ liegt darin, dass Menschen sich ihrer bewusst werden, sie hinterfragen und aktiv daran arbeiten, fairer und objektiver zu denken."
+        },
+        {
+          "id": "ik-10",
+          "typ": "karteikarte",
+          "frage": "Wie unterscheiden sich individuelle und kollektive Identität?",
+          "antwort": "Individuelle Identität: Prägung durch die ursprüngliche Familie und das unmittelbare soziale Umfeld; persönliche Erlebnisse und emotionale Bindungen formen das Selbstbild.\n\nKollektive Identität: Gemeinsame kulturelle Werte und Geschichte schaffen das Gefühl einer Zugehörigkeit zu größeren Gruppen."
+        },
+        {
+          "id": "ik-11",
+          "typ": "karteikarte",
+          "frage": "Was bedeutet kultursensibel im Gesundheitssystem? (Fall Malek)",
+          "antwort": "Bearbeitung von Fallbeispielen aus zwei Perspektiven: Pflegekraft (Herausforderungen in der Kommunikation) und Angehörige (kulturelle Werte und Erwartungen). Ziel: Praktische Kommunikationsstrategien für den Umgang mit Patienten und Angehörigen unterschiedlicher kultureller Hintergründe. Wertschätzende und verständnisvolle Kommunikation."
+        },
+        {
+          "id": "ik-12",
+          "typ": "multipleChoice",
+          "frage": "Welche Aspekte von Kultur sind sichtbar?",
+          "optionen": [
+            "Werte und Glaubenssätze",
+            "Kleidung, Verhalten, Sprache",
+            "Einstellungen und Normen",
+            "Emotionale Bindungen"
+          ],
+          "richtigeAntwort": 1,
+          "erklaerung": "Sichtbare Aspekte: Kleidung, Verhalten, Sprache. Unsichtbar: Werte, Glaubenssätze, Einstellungen."
+        },
+        {
+          "id": "ik-13",
+          "typ": "multipleChoice",
+          "frage": "Welcher Nachteil von Vorurteilen trifft zu?",
+          "optionen": [
+            "Sie verbessern die soziale Orientierung",
+            "Sie ermöglichen schnelle Entscheidungen",
+            "Sie können die objektive Wahrnehmung und das Lernen neuer Informationen behindern",
+            "Sie dienen immer als Schutzmechanismus"
+          ],
+          "richtigeAntwort": 2,
+          "erklaerung": "Eingeschränktes Denken: Vorurteile können die objektive Wahrnehmung und das Lernen neuer Informationen behindern."
+        },
+        {
+          "id": "ik-14",
+          "typ": "multipleChoice",
+          "frage": "Was bedeutet „colere“ (Wortherkunft von Kultur)?",
+          "optionen": [
+            "Kunst und Wissenschaft",
+            "Pflegen, bebauen oder hegen",
+            "Gemeinschaft und Identität",
+            "Tradition und Moderne"
+          ],
+          "richtigeAntwort": 1,
+          "erklaerung": "Das lateinische „colere“ bedeutet „pflegen“, „bebauen“ oder „hegen“ – Idee der fortwährenden Entwicklung."
+        },
+        {
+          "id": "ik-15",
+          "typ": "multipleChoice",
+          "frage": "Die kulturelle Brille …",
+          "optionen": [
+            "ist ein wissenschaftlich messbares Instrument",
+            "beeinflusst unsere Wahrnehmung oft unbewusst",
+            "macht alle Kulturen gleich sichtbar",
+            "wird nur in der Antike verwendet"
+          ],
+          "richtigeAntwort": 1,
+          "erklaerung": "Die kulturelle Brille wirkt oft unbewusst und führt dazu, dass wir durch den Filter unserer eigenen kulturellen Erfahrungen bewerten."
+        }
+      ]
+    },
+    {
+      "id": "diversitaet-lsbti",
+      "name": "Diversität / LSBTI*",
+      "fragen": [
+        {
+          "id": "dv-1",
+          "typ": "karteikarte",
+          "frage": "Wofür steht das Akronym LSBTI*?",
+          "antwort": "• L: Lesben\n• S: Schwule\n• B: Bisexuelle\n• T: Trans Personen\n• I: Inter Personen\n• * (Gendersternchen): Platzhalter für weitere Selbstbezeichnungen"
+        },
+        {
+          "id": "dv-2",
+          "typ": "karteikarte",
+          "frage": "Wann wurde Homosexualität von der WHO nicht mehr als psychische Erkrankung klassifiziert?",
+          "antwort": "Bis 1990 wurde Homosexualität von der WHO als psychische Erkrankung klassifiziert. Die Änderung erfolgte 1990."
+        },
+        {
+          "id": "dv-3",
+          "typ": "karteikarte",
+          "frage": "Bis wann galt Transgeschlechtlichkeit als Persönlichkeits- bzw. Verhaltensstörung?",
+          "antwort": "Bis zur Einführung des ICD-11 im Jahr 2022."
+        },
+        {
+          "id": "dv-4",
+          "typ": "karteikarte",
+          "frage": "Wann wurde der § 175 StGB („widernatürliche Unzucht“) abgeschafft?",
+          "antwort": "1994. Der § 175 StGB stellte gleichgeschlechtlichen Sex von Männern unter Strafe. Verurteilungen aus NS-Zeit und „jungen“ Bundesrepublik wurden erst 2002 bzw. 2017 aufgehoben."
+        },
+        {
+          "id": "dv-5",
+          "typ": "karteikarte",
+          "frage": "Was bedeutet Heteronormativität?",
+          "antwort": "Gesellschaftliches Ordnungsprinzip: Annahme, es gibt nur zwei Geschlechter (männlich/weiblich). Heterosexualität als Norm: Männer und Frauen begehren ausschließlich das jeweils andere Geschlecht. Prägt Rollenbilder, Erwartungen, Gesetze, Bildung, Arbeitswelt."
+        },
+        {
+          "id": "dv-6",
+          "typ": "karteikarte",
+          "frage": "Wie unterscheiden sich Cis-, Trans- und Inter-Personen?",
+          "antwort": "Cis-Personen: Identifizieren sich mit dem bei der Geburt zugewiesenen Geschlecht (cis = diesseitig).\n\nTrans-Personen: Identifizieren sich nicht mit dem bei der Geburt zugewiesenen Geschlecht (trans = jenseits, darüber hinaus).\n\nInter-Personen: Haben biologische Merkmale von männlichen und weiblichen Körpern."
+        },
+        {
+          "id": "dv-7",
+          "typ": "karteikarte",
+          "frage": "Was kennzeichnet nicht-binäre Personen?",
+          "antwort": "Identität außerhalb des binären Systems. Keine oder nur teilweise Identifikation als weiblich oder männlich. Selbstbezeichnungen wie genderfluid, agender, bigender. Jede Person definiert ihre Identität individuell."
+        },
+        {
+          "id": "dv-8",
+          "typ": "karteikarte",
+          "frage": "Nenne die vier Grundprinzipien in der Pflegepraxis gegenüber LSBTI*-Personen.",
+          "antwort": "• Individualität des Patienten/der Patientin berücksichtigen\n• Privatsphäre berücksichtigen\n• Aufgeschlossenheit der Pflegeperson gegenüber dem Patienten/der Patientin zeigen\n• Wertschätzung & Respekt zeigen"
+        },
+        {
+          "id": "dv-9",
+          "typ": "karteikarte",
+          "frage": "Welche sensiblen Fragen eignen sich in der Pflegeanamnese statt heteronormativer Annahmen?",
+          "antwort": "• „Leben Sie in einer Beziehung?“ (statt: „Haben Sie einen Mann/Freund?\")\n• „Wer ist Ihre Hauptbezugsperson?“ (offen für verschiedene soziale Bindungen)\n• „Wer soll einbezogen werden, wenn sich Ihr Zustand verschlechtert?“ (individuelle Wahl ermöglichen)"
+        },
+        {
+          "id": "dv-10",
+          "typ": "karteikarte",
+          "frage": "Wie sollte man eine Person ansprechen, deren Name in der Akte anders lautet als erwartet? (z.B. Conrad/Constanze)",
+          "antwort": "• „Guten Tag! Mein Name ist XX. Wie möchten Sie angesprochen werden?“\n• „Herzlich willkommen! Ich heiße XX und Sie sind?“\nVorteile: Sie lassen Ihrem Gegenüber die Wahl, treffen keine Vorannahmen, begegnen sich auf Augenhöhe."
+        },
+        {
+          "id": "dv-11",
+          "typ": "multipleChoice",
+          "frage": "Wofür steht das „L“ in LSBTI*?",
+          "optionen": [
+            "Lesben",
+            "Lebenspartner",
+            "Liebende",
+            "Liberale"
+          ],
+          "richtigeAntwort": 0,
+          "erklaerung": "L = Lesben (Frauen, die Frauen begehren)"
+        },
+        {
+          "id": "dv-12",
+          "typ": "multipleChoice",
+          "frage": "Cis-Personen sind Menschen, die …",
+          "optionen": [
+            "sich nicht mit dem bei der Geburt zugewiesenen Geschlecht identifizieren",
+            "sich mit dem bei der Geburt zugewiesenen Geschlecht identifizieren",
+            "biologische Merkmale beider Geschlechter haben",
+            "sich mit keinem Geschlecht identifizieren"
+          ],
+          "richtigeAntwort": 1,
+          "erklaerung": "Cis = diesseitig – Identifikation mit dem bei der Geburt zugewiesenen Geschlecht."
+        },
+        {
+          "id": "dv-13",
+          "typ": "multipleChoice",
+          "frage": "Welche Auswirkung hat Diskriminierung auf die Gesundheit von LSBTI*-Personen?",
+          "optionen": [
+            "Keine nachweisbaren Auswirkungen",
+            "Vorsorgemaßnahmen werden vermieden, erhöhtes Risiko für spät erkannte Erkrankungen",
+            "Bessere Gesundheitsversorgung",
+            "Weniger depressive Erkrankungen"
+          ],
+          "richtigeAntwort": 1,
+          "erklaerung": "Diskriminierungsängste beeinträchtigen Selbstwertgefühl und Selbstfürsorge. Vorsorgemaßnahmen werden vermieden."
+        },
+        {
+          "id": "dv-14",
+          "typ": "multipleChoice",
+          "frage": "Bei der Zimmerunterbringung einer Transfrau im Krankenhaus …",
+          "optionen": [
+            "muss sie gesetzlich in einem Männerzimmer untergebracht werden",
+            "orientieren sich viele Krankenhäuser am rechtlichen Geschlechtseintrag",
+            "gibt es keine Alternative zur Einzelzimmerlösung",
+            "spielen individuelle Wünsche keine Rolle"
+          ],
+          "richtigeAntwort": 1,
+          "erklaerung": "Viele Krankenhäuser orientieren sich am rechtlichen Geschlechtseintrag. Bei Unsicherheiten kann ein Einzelzimmer eine Alternative sein."
+        },
+        {
+          "id": "dv-15",
+          "typ": "multipleChoice",
+          "frage": "Pansexuell bedeutet …",
+          "optionen": [
+            "Anziehung nur zum gleichen Geschlecht",
+            "Geschlecht spielt bei der sexuellen oder romantischen Anziehung keine Rolle",
+            "Anziehung nur zum anderen Geschlecht",
+            "Wechsel zwischen verschiedenen Orientierungen"
+          ],
+          "richtigeAntwort": 1,
+          "erklaerung": "Anziehung basiert auf Persönlichkeit und individuellen Merkmalen – Geschlecht spielt keine Rolle."
+        }
+      ]
+    },
+    {
+      "id": "rechtliche-grundlagen",
+      "name": "Rechtliche Grundlagen",
+      "fragen": [
+        {
+          "id": "rg-1",
+          "typ": "karteikarte",
+          "frage": "Welche gesetzlichen Grundlagen sollten Praxisanleitende kennen?",
+          "antwort": "• Die jeweilige Ausbildungs- und Prüfungsverordnung (APrV) des Berufsfelds\n• Berufsgesetz (z.B. PflBG, MTBG, HebG, ATA-OTA-G)\n• Jugendarbeitsschutzgesetz (JuSchG)\n• Mutterschutzgesetz (MuSchG)"
+        },
+        {
+          "id": "rg-2",
+          "typ": "karteikarte",
+          "frage": "Nenne die Berufsgesetze und APrV für die Gesundheitsberufe (Abkürzungen).",
+          "antwort": "• PflBG / PflAPrV (Pflege)\n• MTBG / MTAPrV (MTA)\n• HebG / HebStPrV (Hebammen)\n• ATA-OTA-G / ATA-OTA-APrV (Ergotherapie, Physiotherapie)"
+        },
+        {
+          "id": "rg-3",
+          "typ": "karteikarte",
+          "frage": "Der Auszubildende Jakob (17 Jahre) muss 1 Stunde Pause machen, während andere nur 30 Minuten haben. Ist das ungerecht?",
+          "antwort": "Nein. Das Jugendarbeitsschutzgesetz (JuSchG) schreibt für Jugendliche unter 18 bei einer Arbeitszeit von mehr als 6 Stunden eine Mindestpause von 60 Minuten vor. Bei Erwachsenen reichen 30 Minuten. Die längere Pause für Jakob ist gesetzlicher Schutz, keine Ungleichbehandlung."
+        },
+        {
+          "id": "rg-4",
+          "typ": "karteikarte",
+          "frage": "Welche Pausenregelung gilt für Jugendliche (15–17 Jahre) nach dem JuSchG?",
+          "antwort": "• Bei mehr als 4,5 bis 6 Stunden: mindestens 30 Minuten Pause\n• Bei mehr als 6 Stunden: mindestens 60 Minuten Pause\n• Maximal 4,5 Stunden hintereinander ohne Pause"
+        },
+        {
+          "id": "rg-5",
+          "typ": "karteikarte",
+          "frage": "Die schwangere Auszubildende Hanna wird gebeten, länger als 7,7 Stunden und nach 21 Uhr zu arbeiten. Was ist zu beachten?",
+          "antwort": "Das Mutterschutzgesetz (MuSchG) schützt schwangere Frauen. Beschäftigungsverbote gelten u.a. für: Mehrarbeit über 8,5 Stunden täglich, Nachtarbeit (20–6 Uhr). Hanna darf nicht zu Mehrarbeit oder Nachtarbeit verpflichtet werden. Der Arbeitgeber muss die Arbeitsbedingungen anpassen."
+        },
+        {
+          "id": "rg-6",
+          "typ": "karteikarte",
+          "frage": "Hanna hat Sorge, gekündigt zu werden, wenn sie der Aufforderung zu Mehrarbeit nicht nachkommt. Was gilt?",
+          "antwort": "Schwangere und Frauen nach der Entbindung genießen besonderen Kündigungsschutz: Während der Schwangerschaft und bis 4 Monate nach der Entbindung darf dem Arbeitgeber nicht gekündigt werden (mit wenigen Ausnahmen). Die Weigerung, gesetzeswidrige Mehrarbeit zu leisten, ist kein Kündigungsgrund."
+        },
+        {
+          "id": "rg-7",
+          "typ": "multipleChoice",
+          "frage": "Welches Gesetz regelt die Pausen für den 17-jährigen Auszubildenden Jakob?",
+          "optionen": [
+            "Mutterschutzgesetz",
+            "Jugendarbeitsschutzgesetz",
+            "Arbeitszeitgesetz",
+            "Pflegeberufegesetz"
+          ],
+          "richtigeAntwort": 1,
+          "erklaerung": "Das Jugendarbeitsschutzgesetz (JuSchG) gilt für Jugendliche unter 18 Jahren und regelt u.a. Pausen und Arbeitszeiten."
+        },
+        {
+          "id": "rg-8",
+          "typ": "multipleChoice",
+          "frage": "Welches Gesetz schützt die schwangere Auszubildende Hanna?",
+          "optionen": [
+            "Jugendarbeitsschutzgesetz",
+            "Mutterschutzgesetz",
+            "Gleichstellungsgesetz",
+            "Teilzeitgesetz"
+          ],
+          "richtigeAntwort": 1,
+          "erklaerung": "Das Mutterschutzgesetz (MuSchG) schützt schwangere und stillende Frauen vor gesundheitsgefährdenden Arbeitsbedingungen."
+        },
+        {
+          "id": "rg-9",
+          "typ": "multipleChoice",
+          "frage": "PflAPrV steht für …",
+          "optionen": [
+            "Pflege-Ausbildungsgesetz",
+            "Pflegeberufegesetz",
+            "Pflege-Ausbildungs- und Prüfungsverordnung",
+            "Pflege-Anpassungsverordnung"
+          ],
+          "richtigeAntwort": 2,
+          "erklaerung": "PflAPrV = Pflege-Ausbildungs- und Prüfungsverordnung – regelt die Ausbildung in der Pflege."
+        },
+        {
+          "id": "rg-10",
+          "typ": "multipleChoice",
+          "frage": "Warum ist die 1-Stunden-Pause für Jakob (17) gesetzlich vorgeschrieben?",
+          "optionen": [
+            "Weil er in der Ausbildung ist",
+            "Weil er in der Pflege arbeitet",
+            "Weil das JuSchG für Jugendliche unter 18 bei mehr als 6 Stunden Arbeit 60 Min. Pause vorschreibt",
+            "Weil der Arbeitgeber es so will"
+          ],
+          "richtigeAntwort": 2,
+          "erklaerung": "§ 11 JArbSchG: Bei mehr als 6 Stunden Arbeitszeit müssen Jugendliche mindestens 60 Minuten Pause haben."
+        }
+      ]
+    },
+    {
+      "id": "generationenvielfalt",
+      "name": "Generationenvielfalt",
+      "fragen": [
+        {
+          "id": "gv-1",
+          "typ": "karteikarte",
+          "frage": "Nenne die vier Generationen im Krankenhausteam mit ihren Geburtsjahrgängen.",
+          "antwort": "• Babyboomer (geb. 1946–1964)\n• Generation X (geb. 1965–1980)\n• Generation Y (geb. 1981–1996)\n• Generation Z (geb. 1997–2012)"
+        },
+        {
+          "id": "gv-2",
+          "typ": "karteikarte",
+          "frage": "Welche Merkmale kennzeichnen die Babyboomer?",
+          "antwort": "• Arbeit hat höchste Priorität\n• Pflichtbewusstsein und Loyalität\n• Geprägt durch „Helfer-Syndrom“ und idealistische Grundhaltung\n• Akzeptieren Hierarchien\n• Langfristige Bindung an Arbeitgeber"
+        },
+        {
+          "id": "gv-3",
+          "typ": "karteikarte",
+          "frage": "Welche Merkmale kennzeichnen die Generation X?",
+          "antwort": "• Work-Life-Balance wichtiger als reine Karriere\n• Pragmatismus in der Arbeitshaltung, Fokus auf Unabhängigkeit\n• Weniger ausgeprägte Arbeitgeberloyalität als Babyboomer"
+        },
+        {
+          "id": "gv-4",
+          "typ": "karteikarte",
+          "frage": "Welche Merkmale kennzeichnen die Generation Y?",
+          "antwort": "• Zielgerichtete Karriereentwicklung, Arbeitsplatzwechsel bei fehlender Perspektive\n• Wunsch nach flexiblen Arbeitsmodellen und Selbstverwirklichung\n• Führungskräfte als Mentoren und Vorbilder mit klarer Mission"
+        },
+        {
+          "id": "gv-5",
+          "typ": "karteikarte",
+          "frage": "Welche Merkmale kennzeichnen die Generation Z?",
+          "antwort": "• Digitalisierung prägend, hohes Sicherheitsbedürfnis\n• Work-Life-Blending statt klassischer Work-Life-Balance\n• Nutzung von Social Media für Stellenrecherche, hohe Erwartung an Transparenz"
+        },
+        {
+          "id": "gv-6",
+          "typ": "karteikarte",
+          "frage": "Nenne die fünf Konfliktpotenziale zwischen den Generationen im Krankenhaus.",
+          "antwort": "• Unterschiedliche Einstellungen zur Arbeit\n• Verschiedene Erwartungshaltungen an Führung und Kommunikation\n• Work-Life-Balance vs. Work-Life-Blending\n• Digitalisierung und Informationsquellen\n• Herausforderungen für Krankenhäuser"
+        },
+        {
+          "id": "gv-7",
+          "typ": "karteikarte",
+          "frage": "Wie unterscheiden sich Babyboomer und Generation X bei Work-Life?",
+          "antwort": "Babyboomer & Generation X: Beruf und Privatleben sind getrennt, feste Arbeitszeiten bevorzugt.\n\nGeneration Y: Suche nach flexiblen Arbeitsmodellen zur Selbstverwirklichung.\n\nGeneration Z: Verschmelzung von Arbeit und Privatleben (Work-Life-Blending), klare Abgrenzung gegen Arbeitgeber-Eingriffe."
+        },
+        {
+          "id": "gv-8",
+          "typ": "multipleChoice",
+          "frage": "Welche Generation (geb. 1981–1996) wünscht sich Führungskräfte als Mentoren und Vorbilder?",
+          "optionen": [
+            "Babyboomer",
+            "Generation X",
+            "Generation Y",
+            "Generation Z"
+          ],
+          "richtigeAntwort": 2,
+          "erklaerung": "Generation Y: Führungskräfte sollen inspirieren und eine gemeinsame Mission bieten."
+        },
+        {
+          "id": "gv-9",
+          "typ": "multipleChoice",
+          "frage": "Welche Generation nutzt Social Media für Stellenrecherche und hat hohe Erwartung an Transparenz?",
+          "optionen": [
+            "Babyboomer",
+            "Generation X",
+            "Generation Y",
+            "Generation Z"
+          ],
+          "richtigeAntwort": 3,
+          "erklaerung": "Generation Z: Digitalisierung prägend, Nutzung von Social Media für Jobentscheidungen."
+        },
+        {
+          "id": "gv-10",
+          "typ": "multipleChoice",
+          "frage": "„Work-Life-Balance wichtiger als reine Karriere“ – welche Generation?",
+          "optionen": [
+            "Babyboomer",
+            "Generation X",
+            "Generation Y",
+            "Generation Z"
+          ],
+          "richtigeAntwort": 1,
+          "erklaerung": "Generation X: Pragmatismus, Fokus auf Unabhängigkeit, Work-Life-Balance."
+        },
+        {
+          "id": "gv-11",
+          "typ": "multipleChoice",
+          "frage": "Welche Herausforderung haben Krankenhäuser im Umgang mit Generationen?",
+          "optionen": [
+            "Junge Fachkräfte wollen nicht mehr arbeiten",
+            "Schwierigkeiten, junge Fachkräfte langfristig zu binden",
+            "Alle Generationen haben dieselben Erwartungen",
+            "Es gibt keine Konflikte zwischen Generationen"
+          ],
+          "richtigeAntwort": 1,
+          "erklaerung": "Herausforderung: Junge Fachkräfte langfristig zu binden, neue Medien nutzen, Führungskonzepte anpassen."
+        }
+      ]
+    },
+    {
+      "id": "methoden",
+      "name": "Methoden im Anleitungsprozess",
+      "fragen": [
+        {
+          "id": "me-1",
+          "typ": "karteikarte",
+          "frage": "Nenne die 5 Schritte des Anleitungsprozesses.",
+          "antwort": "• Vorwissen aktivieren\n• Erarbeitung\n• Durchführung\n• Vertiefung\n• Reflexion"
+        },
+        {
+          "id": "me-2",
+          "typ": "karteikarte",
+          "frage": "Warum ist die Aktivierung von Vorwissen wichtig?",
+          "antwort": "• Förderung des Verständnisses\n• Motivation\n• Selbstreflexion und Selbsterfahrung"
+        },
+        {
+          "id": "me-3",
+          "typ": "karteikarte",
+          "frage": "Warum ist die Selbsterarbeitung eines Themas wichtig?",
+          "antwort": "• Das Verständnis von Lerninhalten wird strukturiert und erleichtert\n• Die aktive Beteiligung und das kritische Denken der Lernenden werden gefördert"
+        },
+        {
+          "id": "me-4",
+          "typ": "karteikarte",
+          "frage": "Warum ist die Vertiefung wichtig?",
+          "antwort": "• Verankerung des Gelernten im Langzeitgedächtnis\n• Selbstüberprüfung und Festigung des bislang Gelernten"
+        },
+        {
+          "id": "me-5",
+          "typ": "karteikarte",
+          "frage": "Nenne Methoden zur Aktivierung des Vorwissens.",
+          "antwort": "• ABC-Liste\n• Selbsterfahrungsübung\n• Bildreflexion\n• Kopfsalat/Brainstorming\n• Handlungskette\n• Quiz"
+        },
+        {
+          "id": "me-6",
+          "typ": "karteikarte",
+          "frage": "Nenne Methoden zur Erarbeitung.",
+          "antwort": "• Dokumentenanalyse\n• Leittextmethode\n• Handlungskette\n• Fallarbeit\n• Strukturlegeplan"
+        },
+        {
+          "id": "me-7",
+          "typ": "karteikarte",
+          "frage": "Nenne Methoden für die Durchführung.",
+          "antwort": "• Handlungskette\n• Demonstration (durch PA oder Lernenden)\n• Modeling mit Metalog\n• Cognitive Apprenticeship\n• Pflegevisite\n• Rollentausch\n• Gruppenanleitung\n• Gemeinsame Handlungsdurchführung"
+        },
+        {
+          "id": "me-8",
+          "typ": "karteikarte",
+          "frage": "Nenne Methoden für die Vertiefung.",
+          "antwort": "• Fischgräte\n• Kopfstand\n• Fehleranalyse\n• Ursachennetz\n• Quiz"
+        },
+        {
+          "id": "me-9",
+          "typ": "karteikarte",
+          "frage": "Nenne Methoden für die Reflexion.",
+          "antwort": "• Gute Ratschläge\n• Ampelfeedback\n• 5-Finger-Feedback\n• Reflexion nach Korthagen\n• Reflexion nach Richter\n• Reflexion nach Johns"
+        },
+        {
+          "id": "me-10",
+          "typ": "multipleChoice",
+          "frage": "Welche Methode gehört zur Durchführung?",
+          "optionen": [
+            "ABC-Liste",
+            "Cognitive Apprenticeship",
+            "Fischgräte",
+            "Dokumentenanalyse"
+          ],
+          "richtigeAntwort": 1,
+          "erklaerung": "Cognitive Apprenticeship ist eine Methode für die Durchführung. ABC-Liste = Aktivierung, Fischgräte = Vertiefung, Dokumentenanalyse = Erarbeitung."
+        }
+      ]
+    },
+    {
+      "id": "beurteilen-bewerten",
+      "name": "Beurteilen & Bewerten",
+      "fragen": [
+        {
+          "id": "bb-1",
+          "typ": "karteikarte",
+          "frage": "Was schreibt die PflAPrV §6 Abs.2 zur Leistungseinschätzung vor?",
+          "antwort": "Jede an der Ausbildung beteiligte Einrichtung erstellt eine qualifizierte Leistungseinschätzung über den durchgeführten praktischen Einsatz mit Ausweisung von Fehlzeiten. Diese Einschätzung ist Auszubildenden vor Beendigung ihres Einsatzes auszuhändigen und zu erläutern."
+        },
+        {
+          "id": "bb-2",
+          "typ": "karteikarte",
+          "frage": "Nenne die Funktionen von Leistungseinschätzungen.",
+          "antwort": "• Strukturierte Rückmeldefunktion über den Leistungsstand für Anleitende\n• Möglichkeit zur Selbstreflexion für Anleitende und Lernende\n• Gelegenheit zu Gespräch und Feedback\n• Motivations- und Disziplinierungsmaßnahme für Lernende\n• Kontrollfunktion am Lernort Praxis\n• Berichts- und Rückmeldefunktion für Ausbildungsverantwortliche, Kostenträger, Gremien"
+        },
+        {
+          "id": "bb-3",
+          "typ": "karteikarte",
+          "frage": "Nenne Ursachen für Fehleinschätzungen.",
+          "antwort": "• Wahrnehmungsfilter erfassen nur Teile der Realität\n• Erwartungen und Wünsche, Hoffnungen und Ängste\n• Stimmungen und biologische Unterschiede\n• Der erste Eindruck\n• Subjektive Filter: Vorurteile, Übertragungen, Verallgemeinerungen\n• Sympathie, Milde und Strenge\n• Stille und laute extrovertierte Menschen"
+        },
+        {
+          "id": "bb-4",
+          "typ": "karteikarte",
+          "frage": "In welche drei Gruppen lassen sich Beurteilungskriterien einteilen?",
+          "antwort": "• Lernzielbezogen: Lernfortschritt in einer konkreten Lernsituation (z.B. Hygienevorschriften)\n• Entwicklungsbezogen: Zeitraum, in dem Veränderungen eingeschätzt werden (z.B. zunehmende Selbstständigkeit)\n• Qualitätsbezogen: Qualität von Handlungen (z.B. Pflegestandards, Expertenstandards, Curriculum)"
+        },
+        {
+          "id": "bb-5",
+          "typ": "karteikarte",
+          "frage": "Nenne die vier Dimensionen professionellen Handelns (Beurteilungsmaßstäbe).",
+          "antwort": "• Regelgeleitetes Handeln: Wissen anwenden, geplant und zielgerichtet handeln\n• Situativ-beurteilendes Handeln: Einfühlungsvermögen, Wahrnehmungs- und Beurteilungsfähigkeit\n• Reflektierendes Handeln: sich mit der eigenen Person und professionellen Rolle auseinandersetzen\n• Ethisch-aktives Handeln: nach Werten handeln und diese kommunikativ ausdrücken können"
+        },
+        {
+          "id": "bb-6",
+          "typ": "karteikarte",
+          "frage": "Wie soll die Bewertung bei Leistungseinschätzungen erfolgen?",
+          "antwort": "Die Bewertung sollte 4-(6-)stufig erfolgen, damit die Auszubildenden eindeutig eingeordnet werden können und sie ihren Verbesserungsbedarf nachvollziehen können. Keine Mittelwerteinschätzung."
+        },
+        {
+          "id": "bb-7",
+          "typ": "multipleChoice",
+          "frage": "Welches Kriterium ist „lernzielbezogen“?",
+          "optionen": [
+            "Zunehmende Selbstständigkeit über einen Zeitraum",
+            "Korrektes Anwenden von Hygienevorschriften beim Zubereiten der Nahrung",
+            "Orientierung an Pflegestandards",
+            "Qualität der Dokumentation"
+          ],
+          "richtigeAntwort": 1,
+          "erklaerung": "Lernzielbezogen: Lernfortschritt in einer konkreten Lernsituation, z.B. Hygienevorschriften."
+        },
+        {
+          "id": "bb-8",
+          "typ": "multipleChoice",
+          "frage": "Welche Dimension professionellen Handelns beschreibt „Einfühlungsvermögen, Wahrnehmungs- und Beurteilungsfähigkeit“?",
+          "optionen": [
+            "Regelgeleitetes Handeln",
+            "Situativ-beurteilendes Handeln",
+            "Reflektierendes Handeln",
+            "Ethisch-aktives Handeln"
+          ],
+          "richtigeAntwort": 1,
+          "erklaerung": "Situativ-beurteilendes Handeln: Einfühlungsvermögen, Wahrnehmungs- und Beurteilungsfähigkeit."
+        }
+      ]
+    }
+  ]
+}

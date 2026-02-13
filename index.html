@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#1a365d">
+  <meta name="description" content="Quiz-Schatz – Prüfungsvorbereitung Weiterbildung Praxisanleitung M II">
+  <title>Quiz-Schatz | Prüfungsvorbereitung</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app">
+    <!-- Startbildschirm -->
+    <header class="header">
+      <h1>Quiz-Schatz</h1>
+      <p class="subtitle">Prüfungsvorbereitung Praxisanleitung M II</p>
+    </header>
+
+    <main class="main">
+      <!-- Modus-Auswahl -->
+      <section id="modus-auswahl" class="section">
+        <h2>Modus wählen</h2>
+        <div class="modus-buttons">
+          <button id="btn-lernmodus" class="btn btn-primary">
+            <span class="btn-icon">📚</span>
+            Lernmodus
+          </button>
+          <button id="btn-pruefungsmodus" class="btn btn-secondary">
+            <span class="btn-icon">✍️</span>
+            Prüfungsmodus
+          </button>
+        </div>
+      </section>
+
+      <!-- Kategorie-Auswahl -->
+      <section id="kategorie-auswahl" class="section hidden">
+        <h2>Thema wählen</h2>
+        <div id="kategorie-liste" class="kategorie-liste"></div>
+        <button id="btn-zurueck-modus" class="btn btn-ghost">← Zurück</button>
+      </section>
+
+      <!-- Quiz-Bereich -->
+      <section id="quiz-bereich" class="section hidden">
+        <div class="quiz-header">
+          <div class="quiz-header-links">
+            <span id="quiz-modus-badge" class="modus-badge hidden"></span>
+            <span id="quiz-fortschritt" class="fortschritt">1 / 21</span>
+          </div>
+          <div class="quiz-header-rechts">
+            <span id="quiz-pruefungs-stand" class="pruefungs-stand hidden"></span>
+            <span id="quiz-kategorie" class="kategorie-label"></span>
+          </div>
+        </div>
+
+        <!-- Karteikarte (Wissenschaftliches Arbeiten) -->
+        <div id="karteikarte-container" class="fragen-container hidden">
+          <div class="karteikarte">
+            <div class="karteikarte-frage" id="karteikarte-frage"></div>
+            <button id="btn-antwort-zeigen" class="btn btn-primary">Antwort zeigen</button>
+            <div id="karteikarte-antwort" class="karteikarte-antwort hidden"></div>
+            <div class="karteikarte-buttons hidden" id="karteikarte-buttons">
+              <button id="btn-gewusst" class="btn btn-success">✓ Gewusst</button>
+              <button id="btn-nicht-gewusst" class="btn btn-danger">✗ Nochmal</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Multiple Choice (Kommunikation) -->
+        <div id="multiplechoice-container" class="fragen-container hidden">
+          <div class="multiplechoice">
+            <div class="multiplechoice-frage" id="multiplechoice-frage"></div>
+            <div id="multiplechoice-optionen" class="multiplechoice-optionen"></div>
+            <div id="multiplechoice-feedback" class="multiplechoice-feedback hidden"></div>
+            <button id="btn-weiter-mc" class="btn btn-primary hidden">Weiter</button>
+          </div>
+        </div>
+
+        <div class="quiz-nav">
+          <button id="btn-zurueck" class="btn btn-ghost">← Zurück</button>
+          <button id="btn-weiter" class="btn btn-primary">Weiter →</button>
+        </div>
+      </section>
+
+      <!-- Ergebnis (Prüfungsmodus) -->
+      <section id="ergebnis-bereich" class="section hidden">
+        <h2>Ergebnis</h2>
+        <div id="ergebnis-anzeige" class="ergebnis-anzeige"></div>
+        <button id="btn-neustart" class="btn btn-primary">Nochmal üben</button>
+        <button id="btn-zurueck-start" class="btn btn-ghost">← Zur Startseite</button>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p id="footer-fragenanzahl">42 Fragen · WB-PA-2025</p>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
