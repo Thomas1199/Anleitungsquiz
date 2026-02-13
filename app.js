@@ -173,30 +173,48 @@ function kategorieWaehlen(kategorie) {
   frageAnzeigen();
 }
 
-/** Zieht PRUEFUNG_ANZAHL Fragen aus allen Kategorien – mind. 1 pro Thema, Rest zufällig. */
+/** Fisher-Yates Shuffle – echte Zufallsverteilung */
+function fisherYatesShuffle(arr) {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+/** Zieht PRUEFUNG_ANZAHL Fragen – 1 pro Thema, Rest zufällig verteilt (echte Zufälligkeit). */
 function mischePruefungsfragen(anzahl) {
   const kategorien = fragenDaten.kategorien;
   const ergebnis = [];
-  const proKategorie = kategorien.map(k => [...k.fragen].sort(() => Math.random() - 0.5));
+  const verwendet = new Set(); // verhindert doppelte Fragen
 
-  // Mindestens 1 Frage pro Thema (wenn vorhanden)
-  proKategorie.forEach((fragen, i) => {
-    if (fragen.length > 0 && ergebnis.length < anzahl) {
-      ergebnis.push({ frage: fragen.shift(), kategorie: kategorien[i] });
-    }
+  // 1. Pro Thema genau 1 zufällige Frage (echter Zufall, nicht immer die gleiche)
+  kategorien.forEach((kat) => {
+    if (kat.fragen.length === 0) return;
+    const gemischt = fisherYatesShuffle(kat.fragen);
+    const frage = gemischt[0];
+    ergebnis.push(frage);
+    verwendet.add(frage.id);
   });
 
-  // Restliche Fragen aus allen Themen zufällig ziehen
-  const alleUebrig = proKategorie.flatMap((fragen, i) =>
-    fragen.map(f => ({ frage: f, kategorie: kategorien[i] }))
-  ).sort(() => Math.random() - 0.5);
+  // 2. Alle übrigen Fragen sammeln (ohne die bereits gewählten)
+  const uebrig = [];
+  kategorien.forEach((kat) => {
+    kat.fragen.forEach((f) => {
+      if (!verwendet.has(f.id)) uebrig.push(f);
+    });
+  });
 
-  for (const item of alleUebrig) {
-    if (ergebnis.length >= anzahl) break;
-    ergebnis.push(item);
+  // 3. Restliche Plätze mit Fisher-Yates gemischten Fragen füllen
+  const nochZuWaehlen = Math.min(anzahl - ergebnis.length, uebrig.length);
+  const gemischtUebrig = fisherYatesShuffle(uebrig);
+  for (let i = 0; i < nochZuWaehlen; i++) {
+    ergebnis.push(gemischtUebrig[i]);
   }
 
-  return ergebnis.sort(() => Math.random() - 0.5).map(item => item.frage);
+  // 4. Reihenfolge der 20 Fragen zufällig mischen
+  return fisherYatesShuffle(ergebnis);
 }
 
 function frageAnzeigen() {
