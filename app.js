@@ -1,5 +1,5 @@
 /**
- * Quiz-Schatz – Prüfungsvorbereitung Praxisanleitung M II
+ * Anleitungsquiz – Prüfungsvorbereitung Praxisanleitung M II
  * Lernmodus & Prüfungsmodus
  */
 

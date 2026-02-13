@@ -1,4 +1,4 @@
-# Quiz-Schatz
+# Anleitungsquiz
 
 Prüfungsvorbereitung für die Weiterbildung Praxisanleitung M II.
 
@@ -42,7 +42,7 @@ Dann im Browser öffnen: `http://localhost:3000` (serve) oder `http://localhost:
 
 1. Gehe zu [github.com](https://github.com) und melde dich an (oder erstelle ein Konto).
 2. Klicke auf **„+“** → **„New repository“**.
-3. Name: z.B. **`quiz-schatz`**
+3. Name: z.B. **`Anleitungsquiz`**
 4. **Public** auswählen, **„Create repository“** klicken.
 
 ### 2. Code hochladen
@@ -53,7 +53,7 @@ Dann im Browser öffnen: `http://localhost:3000` (serve) oder `http://localhost:
 cd c:\Users\user\Desktop\quiz_schatz
 git init
 git add .
-git commit -m "Quiz-Schatz initial"
+git commit -m "Anleitungsquiz initial"
 git branch -M main
 git remote add origin https://github.com/Thomas1199/Anleitungsquiz.git
 git push -u origin main
@@ -64,7 +64,7 @@ Ersetze `DEIN-USERNAME` durch deinen GitHub-Benutzernamen.
 **Option B – per Drag & Drop:**
 
 1. Auf der leeren Repository-Seite auf **„uploading an existing file“** klicken.
-2. Alle Dateien aus dem Ordner `quiz_schatz` hineinziehen (außer `memory-bank` wenn du willst – optional).
+2. Alle Dateien aus dem Projektordner hineinziehen (außer `memory-bank` wenn du willst – optional).
 3. **„Commit changes“** klicken.
 
 ### 3. GitHub Pages aktivieren

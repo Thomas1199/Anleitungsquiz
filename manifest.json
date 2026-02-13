@@ -1,6 +1,6 @@
 {
-  "name": "Quiz-Schatz",
-  "short_name": "Quiz-Schatz",
+  "name": "Anleitungsquiz",
+  "short_name": "Anleitungsquiz",
   "description": "Prüfungsvorbereitung Weiterbildung Praxisanleitung M II",
   "start_url": "./index.html",
   "display": "standalone",
