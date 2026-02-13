@@ -274,6 +274,45 @@ body {
   align-items: flex-end;
 }
 
+.timer-btn {
+  width: 2.25rem;
+  height: 2.25rem;
+  padding: 0;
+  border: none;
+  border-radius: var(--radius-klein);
+  background: var(--farbe-karte);
+  font-size: 1.1rem;
+  cursor: pointer;
+  box-shadow: var(--schatten);
+  transition: transform 0.1s, background 0.2s;
+}
+
+.timer-btn:hover {
+  background: var(--farbe-ghost-hover);
+}
+
+.timer-btn.aktiv {
+  background: var(--farbe-primär);
+  color: white;
+}
+
+.timer-display {
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+  font-size: 1rem;
+  color: var(--farbe-text);
+  min-width: 4ch;
+}
+
+.timer-display.warnung {
+  color: var(--farbe-fehler);
+  animation: timer-pulsieren 1s ease-in-out infinite;
+}
+
+@keyframes timer-pulsieren {
+  50% { opacity: 0.7; }
+}
+
 .modus-badge {
   font-size: 0.75rem;
   font-weight: 600;

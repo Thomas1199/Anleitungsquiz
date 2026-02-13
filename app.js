@@ -9,7 +9,10 @@ let aktuelleFragen = [];
 let aktuelleIndex = 0;
 let modus = 'lernen'; // 'lernen' | 'pruefung'
 let pruefungsErgebnis = { richtig: 0, falsch: 0 };
-const PRUEFUNG_ANZAHL = 20; // Anzahl Fragen in der Prüfungssimulation (wie in der echten Prüfung)
+const PRUEFUNG_ANZAHL = 20;
+const TIMER_DAUER = 60 * 60; // 60 Minuten in Sekunden
+let timerIntervall = null;
+let timerSekundenRest = 0;
 
 // DOM-Elemente
 const modusAuswahl = document.getElementById('modus-auswahl');
@@ -55,6 +58,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   }
   initTheme();
   document.getElementById('theme-toggle')?.addEventListener('click', toggleTheme);
+  document.getElementById('quiz-timer-btn')?.addEventListener('click', timerStarten);
   try {
     const response = await fetch('fragen.json');
     fragenDaten = await response.json();
@@ -124,6 +128,7 @@ function zeigeModusAuswahl() {
 }
 
 function zeigeKategorieAuswahl() {
+  timerStoppen();
   modusAuswahl.classList.add('hidden');
   kategorieAuswahl.classList.remove('hidden');
   quizBereich.classList.add('hidden');
@@ -155,6 +160,7 @@ function zeigeKategorieAuswahl() {
 }
 
 function kategorieWaehlen(kategorie) {
+  timerStoppen();
   aktuelleKategorie = kategorie;
   if (modus === 'pruefung' && kategorie.id === 'alle') {
     aktuelleFragen = mischePruefungsfragen(PRUEFUNG_ANZAHL);
@@ -253,14 +259,20 @@ function frageAnzeigen() {
   modusBadge.textContent = modus === 'pruefung' ? 'Prüfungsmodus' : 'Lernmodus';
   modusBadge.classList.add(modus === 'pruefung' ? 'pruefungsmodus' : 'lernmodus');
 
-  // Prüfungsstand (nur im Prüfungsmodus)
+  // Prüfungsstand & Timer (nur im Prüfungsmodus)
   const pruefungsStand = document.getElementById('quiz-pruefungs-stand');
+  const timerBtn = document.getElementById('quiz-timer-btn');
+  const timerDisplay = document.getElementById('quiz-timer-display');
   if (modus === 'pruefung') {
     const mcAnzahl = aktuelleFragen.filter(f => f.typ === 'multipleChoice').length;
     pruefungsStand.classList.remove('hidden');
     pruefungsStand.textContent = `${pruefungsErgebnis.richtig} von ${mcAnzahl} richtig`;
+    timerBtn?.classList.remove('hidden');
+    if (timerIntervall) timerDisplay?.classList.remove('hidden');
   } else {
     pruefungsStand.classList.add('hidden');
+    timerBtn?.classList.add('hidden');
+    timerDisplay?.classList.add('hidden');
   }
 
   if (frage.typ === 'karteikarte') {
@@ -377,7 +389,48 @@ function karteikarteAntwort(gewusst) {
   naechsteFrage();
 }
 
+function timerStoppen() {
+  if (timerIntervall) {
+    clearInterval(timerIntervall);
+    timerIntervall = null;
+  }
+  const btn = document.getElementById('quiz-timer-btn');
+  const disp = document.getElementById('quiz-timer-display');
+  btn?.classList.remove('aktiv');
+  disp?.classList.add('hidden');
+  disp?.classList.remove('warnung');
+}
+
+function timerStarten() {
+  if (timerIntervall) return; // läuft schon
+  timerSekundenRest = TIMER_DAUER;
+  const btn = document.getElementById('quiz-timer-btn');
+  const disp = document.getElementById('quiz-timer-display');
+  btn?.classList.add('aktiv');
+  disp?.classList.remove('hidden');
+  disp?.classList.remove('warnung');
+  timerAktualisieren();
+  timerIntervall = setInterval(() => {
+    timerSekundenRest--;
+    timerAktualisieren();
+    if (timerSekundenRest <= 0) {
+      timerStoppen();
+      zeigeErgebnis();
+    } else if (timerSekundenRest <= 300) {
+      disp?.classList.add('warnung'); // 5 Min
+    }
+  }, 1000);
+}
+
+function timerAktualisieren() {
+  const m = Math.floor(timerSekundenRest / 60);
+  const s = timerSekundenRest % 60;
+  const disp = document.getElementById('quiz-timer-display');
+  if (disp) disp.textContent = `${m}:${s.toString().padStart(2, '0')}`;
+}
+
 function zeigeErgebnis() {
+  timerStoppen();
   quizBereich.classList.add('hidden');
   ergebnisBereich.classList.remove('hidden');
 
