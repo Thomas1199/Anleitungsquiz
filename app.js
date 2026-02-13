@@ -23,11 +23,38 @@ const multiplechoiceContainer = document.getElementById('multiplechoice-containe
 const quizFortschritt = document.getElementById('quiz-fortschritt');
 const quizKategorie = document.getElementById('quiz-kategorie');
 
+const THEME_KEY = 'anleitungsquiz-theme';
+
+function initTheme() {
+  const saved = localStorage.getItem(THEME_KEY);
+  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const isDark = saved === 'dark' || (!saved && prefersDark);
+  document.documentElement.setAttribute('data-theme', isDark ? 'dark' : 'light');
+  document.getElementById('theme-color')?.setAttribute('content', isDark ? '#0f172a' : '#1a365d');
+  updateThemeIcon(isDark);
+}
+
+function toggleTheme() {
+  const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+  const nextDark = !isDark;
+  document.documentElement.setAttribute('data-theme', nextDark ? 'dark' : 'light');
+  document.getElementById('theme-color')?.setAttribute('content', nextDark ? '#0f172a' : '#1a365d');
+  localStorage.setItem(THEME_KEY, nextDark ? 'dark' : 'light');
+  updateThemeIcon(nextDark);
+}
+
+function updateThemeIcon(isDark) {
+  const btn = document.getElementById('theme-toggle');
+  if (btn) btn.textContent = isDark ? '☀️' : '🌙';
+}
+
 // Init
 document.addEventListener('DOMContentLoaded', async () => {
   if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('./sw.js').catch(() => {});
   }
+  initTheme();
+  document.getElementById('theme-toggle')?.addEventListener('click', toggleTheme);
   try {
     const response = await fetch('fragen.json');
     fragenDaten = await response.json();

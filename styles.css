@@ -9,9 +9,45 @@
   --farbe-karte: #ffffff;
   --farbe-text: #1e293b;
   --farbe-text-mild: #64748b;
+  --farbe-karteikarte-antwort: #f8fafc;
+  --farbe-ghost-hover: #e2e8f0;
+  --farbe-mc-hover: #e2e8f0;
+  --farbe-mc-gewaehlt: #eff6ff;
+  --farbe-feedback-richtig-bg: #ecfdf5;
+  --farbe-feedback-richtig-text: #065f46;
+  --farbe-feedback-falsch-bg: #fef2f2;
+  --farbe-feedback-falsch-text: #991b1b;
+  --farbe-modus-lern: #dbeafe;
+  --farbe-modus-pruef: #fef3c7;
+  --farbe-modus-pruef-text: #b45309;
   --schatten: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
   --radius: 12px;
   --radius-klein: 8px;
+}
+
+/* Dark Mode */
+[data-theme="dark"] {
+  --farbe-primär: #60a5fa;
+  --farbe-primär-hover: #3b82f6;
+  --farbe-sekundär: #94a3b8;
+  --farbe-erfolg: #34d399;
+  --farbe-fehler: #f87171;
+  --farbe-hintergrund: #0f172a;
+  --farbe-karte: #1e293b;
+  --farbe-text: #f1f5f9;
+  --farbe-text-mild: #94a3b8;
+  --farbe-ghost-hover: #334155;
+  --farbe-mc-hover: #334155;
+  --farbe-mc-gewaehlt: #1e3a5f;
+  --farbe-feedback-richtig-bg: #064e3b;
+  --farbe-feedback-richtig-text: #6ee7b7;
+  --farbe-feedback-falsch-bg: #7f1d1d;
+  --farbe-feedback-falsch-text: #fecaca;
+  --farbe-modus-lern: #1e3a5f;
+  --farbe-modus-pruef: #78350f;
+  --farbe-modus-pruef-text: #fcd34d;
+  --farbe-karteikarte-antwort: #0f172a;
+  --schatten: 0 4px 6px -1px rgb(0 0 0 / 0.3), 0 2px 4px -2px rgb(0 0 0 / 0.2);
 }
 
 /* === Reset & Basis === */
@@ -40,8 +76,38 @@ body {
 
 /* === Header === */
 .header {
+  position: relative;
   text-align: center;
   padding: 1.5rem 0;
+}
+
+.theme-toggle {
+  position: absolute;
+  top: 1rem;
+  right: 0;
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 0;
+  border: none;
+  border-radius: var(--radius-klein);
+  background: var(--farbe-karte);
+  color: var(--farbe-text-mild);
+  cursor: pointer;
+  font-size: 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--schatten);
+  transition: background 0.2s, transform 0.1s;
+}
+
+.theme-toggle:hover {
+  background: var(--farbe-ghost-hover);
+  color: var(--farbe-text);
+}
+
+.theme-toggle:active {
+  transform: scale(0.95);
 }
 
 .header h1 {
@@ -113,13 +179,17 @@ body {
   background: #475569;
 }
 
+[data-theme="dark"] .btn-secondary:hover {
+  background: #64748b;
+}
+
 .btn-ghost {
   background: transparent;
   color: var(--farbe-text-mild);
 }
 
 .btn-ghost:hover {
-  background: #e2e8f0;
+  background: var(--farbe-ghost-hover);
 }
 
 .btn-success {
@@ -213,13 +283,13 @@ body {
 }
 
 .modus-badge.lernmodus {
-  background: #dbeafe;
+  background: var(--farbe-modus-lern);
   color: var(--farbe-primär);
 }
 
 .modus-badge.pruefungsmodus {
-  background: #fef3c7;
-  color: #b45309;
+  background: var(--farbe-modus-pruef);
+  color: var(--farbe-modus-pruef-text);
 }
 
 .modus-badge.hidden {
@@ -270,7 +340,7 @@ body {
 .karteikarte-antwort {
   margin-top: 1rem;
   padding: 1rem;
-  background: var(--farbe-hintergrund);
+  background: var(--farbe-karteikarte-antwort);
   border-radius: var(--radius-klein);
   white-space: pre-line;
   line-height: 1.6;
@@ -315,22 +385,22 @@ body {
 }
 
 .mc-option:hover {
-  background: #e2e8f0;
+  background: var(--farbe-mc-hover);
 }
 
 .mc-option.gewaehlt {
   border-color: var(--farbe-primär);
-  background: #eff6ff;
+  background: var(--farbe-mc-gewaehlt);
 }
 
 .mc-option.richtig {
   border-color: var(--farbe-erfolg);
-  background: #ecfdf5;
+  background: var(--farbe-feedback-richtig-bg);
 }
 
 .mc-option.falsch {
   border-color: var(--farbe-fehler);
-  background: #fef2f2;
+  background: var(--farbe-feedback-falsch-bg);
 }
 
 .mc-option.deaktiviert {
@@ -346,13 +416,13 @@ body {
 }
 
 .multiplechoice-feedback.richtig {
-  background: #ecfdf5;
-  color: #065f46;
+  background: var(--farbe-feedback-richtig-bg);
+  color: var(--farbe-feedback-richtig-text);
 }
 
 .multiplechoice-feedback.falsch {
-  background: #fef2f2;
-  color: #991b1b;
+  background: var(--farbe-feedback-falsch-bg);
+  color: var(--farbe-feedback-falsch-text);
 }
 
 /* Quiz-Navigation */

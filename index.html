@@ -3,7 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <meta name="theme-color" content="#1a365d">
+  <meta name="theme-color" content="#1a365d" id="theme-color">
+  <script>
+    (function(){var s=localStorage.getItem('anleitungsquiz-theme');var d=window.matchMedia('(prefers-color-scheme: dark)').matches;var dark=s==='dark'||(!s&&d);document.documentElement.setAttribute('data-theme',dark?'dark':'light');})();
+  </script>
   <meta name="description" content="Anleitungsquiz – Prüfungsvorbereitung Weiterbildung Praxisanleitung M II">
   <title>Anleitungsquiz | Prüfungsvorbereitung</title>
   <link rel="manifest" href="manifest.json">
@@ -13,6 +16,7 @@
   <div class="app">
     <!-- Startbildschirm -->
     <header class="header">
+      <button id="theme-toggle" class="theme-toggle" type="button" title="Dark Mode umschalten" aria-label="Dark Mode umschalten">🌙</button>
       <h1>Anleitungsquiz</h1>
       <p class="subtitle">Prüfungsvorbereitung Praxisanleitung M II</p>
     </header>
