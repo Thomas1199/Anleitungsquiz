@@ -55,7 +55,7 @@ git init
 git add .
 git commit -m "Quiz-Schatz initial"
 git branch -M main
-git remote add origin https://github.com/DEIN-USERNAME/quiz-schatz.git
+git remote add origin https://github.com/Thomas1199/Anleitungsquiz.git
 git push -u origin main
 ```
 
@@ -79,6 +79,4 @@ Ersetze `DEIN-USERNAME` durch deinen GitHub-Benutzernamen.
 
 Nach 1–2 Minuten ist die App erreichbar unter:
 
-**`https://DEIN-USERNAME.github.io/quiz-schatz/`**
-
-(z.B. `https://maxmustermann.github.io/quiz-schatz/`)
+**`https://Thomas1199.github.io/Anleitungsquiz/`**
