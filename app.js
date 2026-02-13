@@ -98,8 +98,8 @@ function setupEventListeners() {
     document.getElementById('btn-antwort-zeigen').classList.add('hidden');
   });
 
-  document.getElementById('btn-gewusst').addEventListener('click', naechsteFrage);
-  document.getElementById('btn-nicht-gewusst').addEventListener('click', naechsteFrage);
+  document.getElementById('btn-gewusst').addEventListener('click', () => karteikarteAntwort(true));
+  document.getElementById('btn-nicht-gewusst').addEventListener('click', () => karteikarteAntwort(false));
 
   document.getElementById('btn-weiter-mc').addEventListener('click', naechsteFrage);
 
@@ -157,12 +157,11 @@ function zeigeKategorieAuswahl() {
 function kategorieWaehlen(kategorie) {
   aktuelleKategorie = kategorie;
   if (modus === 'pruefung' && kategorie.id === 'alle') {
-    // Prüfungssimulation: 20 zufällige Fragen, gemischt aus allen 11 Themenbereichen
     aktuelleFragen = mischePruefungsfragen(PRUEFUNG_ANZAHL);
   } else if (modus === 'pruefung') {
-    aktuelleFragen = [...kategorie.fragen].sort(() => Math.random() - 0.5);
+    aktuelleFragen = fisherYatesShuffle([...kategorie.fragen]);
   } else {
-    aktuelleFragen = kategorie.fragen;
+    aktuelleFragen = lernmodusFragenMitStatistik(kategorie.fragen);
   }
   aktuelleIndex = 0;
   pruefungsErgebnis = { richtig: 0, falsch: 0 };
@@ -171,6 +170,23 @@ function kategorieWaehlen(kategorie) {
   quizBereich.classList.remove('hidden');
 
   frageAnzeigen();
+}
+
+/** Lernmodus: Fragen mit Statistik – „Nochmal“-Fragen erscheinen öfter. */
+function lernmodusFragenMitStatistik(fragen) {
+  let stat = {};
+  try {
+    stat = JSON.parse(localStorage.getItem(LERN_STAT_KEY) || '{}');
+  } catch (_) {}
+  const deck = [];
+  fragen.forEach((f) => {
+    deck.push(f);
+    const s = stat[f.id];
+    if (s && s.nochmal > s.gewusst && s.nochmal >= 2) {
+      deck.push(f); // Schwer: 1× extra einfügen
+    }
+  });
+  return fisherYatesShuffle(deck);
 }
 
 /** Fisher-Yates Shuffle – echte Zufallsverteilung */
@@ -323,6 +339,42 @@ function naechsteFrage() {
   mcBeantwortet = false;
   aktuelleIndex++;
   frageAnzeigen();
+}
+
+const LERN_STAT_KEY = 'anleitungsquiz-lernstat';
+
+/** Speichert Gewusst/Nochmal pro Frage-ID für spätere Gewichtung. */
+function lernStatSpeichern(frageId, gewusst) {
+  try {
+    const stat = JSON.parse(localStorage.getItem(LERN_STAT_KEY) || '{}');
+    if (!stat[frageId]) stat[frageId] = { gewusst: 0, nochmal: 0 };
+    if (gewusst) stat[frageId].gewusst++;
+    else stat[frageId].nochmal++;
+    localStorage.setItem(LERN_STAT_KEY, JSON.stringify(stat));
+  } catch (_) {}
+}
+
+/** Karteikarte: Gewusst = weiter, Nochmal = Frage später wieder einfügen + Statistik (nur Lernmodus). */
+function karteikarteAntwort(gewusst) {
+  const frage = aktuelleFragen[aktuelleIndex];
+
+  if (modus === 'pruefung') {
+    // Prüfungssimulation: immer nur weiter, keine Duplikate
+    naechsteFrage();
+    return;
+  }
+
+  if (frage?.id) lernStatSpeichern(frage.id, gewusst);
+
+  if (gewusst) {
+    naechsteFrage();
+    return;
+  }
+
+  // Nochmal (nur Lernmodus): Frage 2–4 Positionen später erneut einfügen
+  const wiederIn = Math.min(aktuelleIndex + 2 + Math.floor(Math.random() * 3), aktuelleFragen.length);
+  aktuelleFragen.splice(wiederIn, 0, frage);
+  naechsteFrage();
 }
 
 function zeigeErgebnis() {
