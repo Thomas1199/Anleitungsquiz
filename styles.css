@@ -377,6 +377,7 @@ body {
 .mc-option {
   padding: 0.875rem 1rem;
   background: var(--farbe-hintergrund);
+  color: var(--farbe-text);
   border: 2px solid transparent;
   border-radius: var(--radius-klein);
   cursor: pointer;
